@@ -20,52 +20,6 @@
             <q-icon name="star_rate" size="18px" class="star-icon" />
             <span class="star-value">{{ totalStars }}</span>
           </div>
-
-          <div v-if="authStore.isLoggedIn" class="user-avatar-wrap">
-            <q-btn flat dense round padding="2px">
-              <q-avatar size="34px" class="user-avatar" color="grey-9" text-color="white">
-                <img
-                  v-if="authStore.photoURL"
-                  :src="authStore.photoURL"
-                  referrerpolicy="no-referrer"
-                />
-                <span v-else style="font-size:14px;font-weight:700">{{ authStore.displayName?.charAt(0) || 'K' }}</span>
-              </q-avatar>
-              <q-menu
-                v-model="menuOpen"
-                anchor="bottom right"
-                self="top right"
-                class="user-menu"
-                :offset="[0, 8]"
-              >
-              <div class="menu-content">
-                <div class="menu-user-section">
-                  <q-avatar size="44px" class="menu-avatar">
-                    <img
-                      v-if="authStore.photoURL"
-                      :src="authStore.photoURL"
-                      referrerpolicy="no-referrer"
-                    />
-                    <q-icon v-else name="person" size="24px" color="white" />
-                  </q-avatar>
-                  <div class="menu-user-info">
-                    <div class="menu-user-name">{{ authStore.displayName }}</div>
-                    <div class="menu-user-email">{{ authStore.email }}</div>
-                  </div>
-                </div>
-                <div class="menu-divider"></div>
-                <button class="menu-item" @click="goToProfile">
-                  <q-icon name="person" size="20px" class="menu-item-icon" />
-                  <span>Profil</span>
-                </button>
-                <button class="menu-item menu-item--danger" @click="handleLogout">
-                  <q-icon name="logout" size="20px" class="menu-item-icon" />
-                  <span>Çıkış Yap</span>
-                </button>
-              </div>
-              </q-menu>
-            </q-btn>
-          </div>
         </div>
       </q-toolbar>
     </q-header>
@@ -77,23 +31,15 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useContentStore } from 'src/stores/content'
 import { useProgressStore } from 'src/stores/progress'
-import { useAuthStore } from 'src/stores/auth'
 
 const route = useRoute()
 const router = useRouter()
 const content = useContentStore()
 const progress = useProgressStore()
-const authStore = useAuthStore()
-
-const menuOpen = ref(false)
-
-onMounted(() => {
-  authStore.init()
-})
 
 const subject = computed(() => {
   const id = route.params.subjectId
@@ -115,16 +61,6 @@ const totalStars = computed(() => {
   return stars
 })
 
-function goToProfile() {
-  menuOpen.value = false
-  router.push({ name: 'profile' })
-}
-
-async function handleLogout() {
-  menuOpen.value = false
-  await authStore.logout()
-  router.replace({ name: 'login' })
-}
 </script>
 
 <style scoped>
@@ -190,102 +126,4 @@ async function handleLogout() {
   text-shadow: 0 0 8px rgba(255, 213, 79, 0.3);
 }
 
-.user-avatar {
-  border: 2px solid rgba(255, 255, 255, 0.12) !important;
-  background: #2a2438 !important;
-}
-
-
-</style>
-
-<style>
-.user-menu {
-  border-radius: 16px !important;
-  background: #1e1a28 !important;
-  border: 1px solid rgba(255, 255, 255, 0.1) !important;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6) !important;
-  overflow: hidden !important;
-  min-width: 240px !important;
-}
-
-.user-menu .q-menu__content {
-  background: #1e1a28 !important;
-}
-
-.menu-content {
-  padding: 8px 0;
-  background: #1e1a28;
-}
-
-.menu-user-section {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 16px 16px 12px;
-}
-
-.menu-avatar {
-  border: 2px solid rgba(155, 127, 212, 0.4) !important;
-  background: linear-gradient(135deg, #5C4B7A, #3D2E5C) !important;
-  flex-shrink: 0;
-}
-
-.menu-user-info {
-  overflow: hidden;
-}
-
-.menu-user-name {
-  font-size: 15px;
-  font-weight: 700;
-  color: #f5f3f8;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.menu-user-email {
-  font-size: 12px;
-  color: rgba(245, 243, 248, 0.45);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.menu-divider {
-  height: 1px;
-  background: rgba(255, 255, 255, 0.07);
-  margin: 8px 12px;
-}
-
-.menu-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  width: 100%;
-  padding: 10px 16px;
-  border: none;
-  background: none;
-  color: rgba(245, 243, 248, 0.8);
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background 0.15s ease;
-  font-family: inherit;
-}
-
-.menu-item:hover {
-  background: rgba(255, 255, 255, 0.06);
-}
-
-.menu-item-icon {
-  color: rgba(155, 127, 212, 0.7);
-}
-
-.menu-item--danger {
-  color: #ef5350;
-}
-
-.menu-item--danger .menu-item-icon {
-  color: #ef5350;
-}
 </style>
