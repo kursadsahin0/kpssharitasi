@@ -27,6 +27,16 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
+    <q-footer class="kpss-footer">
+      <div class="kpss-footer__inner">
+        <router-link :to="{ name: 'about' }" class="kpss-footer__link">About</router-link>
+        <span class="kpss-footer__dot">•</span>
+        <router-link :to="{ name: 'contact' }" class="kpss-footer__link">Contact</router-link>
+        <span class="kpss-footer__dot">•</span>
+        <router-link :to="{ name: 'privacy-policy' }" class="kpss-footer__link">Privacy Policy</router-link>
+      </div>
+    </q-footer>
   </q-layout>
 </template>
 
@@ -124,6 +134,33 @@ const totalStars = computed(() => {
   font-weight: 800;
   color: #FFD54F;
   text-shadow: 0 0 8px rgba(255, 213, 79, 0.3);
+}
+
+.kpss-footer {
+  background: rgba(18, 16, 26, 0.9);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.kpss-footer__inner {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.kpss-footer__link {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+.kpss-footer__link:hover {
+  color: #ffd54f;
+}
+
+.kpss-footer__dot {
+  color: rgba(255, 255, 255, 0.35);
 }
 
 </style>

@@ -26,6 +26,24 @@ const routes = [
         component: () => import('pages/ResultPage.vue'),
         meta: { title: 'Sonuç' },
       },
+      {
+        path: 'about',
+        name: 'about',
+        component: () => import('pages/AboutPage.vue'),
+        meta: { title: 'About' },
+      },
+      {
+        path: 'contact',
+        name: 'contact',
+        component: () => import('pages/ContactPage.vue'),
+        meta: { title: 'Contact' },
+      },
+      {
+        path: 'privacy-policy',
+        name: 'privacy-policy',
+        component: () => import('pages/PrivacyPolicyPage.vue'),
+        meta: { title: 'Privacy Policy' },
+      },
     ],
   },
 
