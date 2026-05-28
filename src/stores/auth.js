@@ -6,7 +6,7 @@ import {
   signOut,
   onAuthStateChanged,
 } from 'firebase/auth'
-import { auth } from 'src/boot/firebase'
+import { auth, firebaseReady, firebaseInitError } from 'src/boot/firebase'
 
 export const useAuthStore = defineStore('auth', () => {
   const user = ref(null)
@@ -18,6 +18,11 @@ export const useAuthStore = defineStore('auth', () => {
   const email = computed(() => user.value?.email || '')
 
   function init() {
+    if (!firebaseReady || !auth) {
+      loading.value = false
+      console.error(firebaseInitError || '[auth] Firebase is not configured.')
+      return
+    }
     onAuthStateChanged(auth, (firebaseUser) => {
       if (firebaseUser) {
         user.value = {
@@ -34,6 +39,9 @@ export const useAuthStore = defineStore('auth', () => {
   }
 
   async function loginWithGoogle() {
+    if (!firebaseReady || !auth) {
+      throw new Error(firebaseInitError || '[auth] Firebase is not configured.')
+    }
     try {
       const provider = new GoogleAuthProvider()
       const result = await signInWithPopup(auth, provider)
@@ -45,6 +53,10 @@ export const useAuthStore = defineStore('auth', () => {
   }
 
   async function logout() {
+    if (!firebaseReady || !auth) {
+      user.value = null
+      return
+    }
     await signOut(auth)
     user.value = null
   }

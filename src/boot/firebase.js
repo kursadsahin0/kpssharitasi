@@ -11,11 +11,8 @@ const requiredEnvKeys = [
   'VITE_FIREBASE_APP_ID',
 ]
 
-for (const key of requiredEnvKeys) {
-  if (!import.meta.env[key]) {
-    throw new Error(`[firebase] Missing required env var: ${key}`)
-  }
-}
+const missingEnvKeys = requiredEnvKeys.filter((key) => !import.meta.env[key])
+const firebaseReady = missingEnvKeys.length === 0
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
@@ -26,10 +23,17 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
 }
 
-const app = initializeApp(firebaseConfig)
-const auth = getAuth(app)
+const app = firebaseReady ? initializeApp(firebaseConfig) : null
+const auth = app ? getAuth(app) : null
+const firebaseInitError = firebaseReady
+  ? ''
+  : `[firebase] Missing required env var(s): ${missingEnvKeys.join(', ')}`
 
-export { app, auth }
+if (!firebaseReady) {
+  console.error(firebaseInitError)
+}
+
+export { app, auth, firebaseReady, firebaseInitError }
 
 export default defineBoot(() => {
 })

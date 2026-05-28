@@ -5,12 +5,14 @@ import {
   createWebHistory,
   createWebHashHistory,
 } from 'vue-router'
-import { getAuth, onAuthStateChanged } from 'firebase/auth'
+import { onAuthStateChanged } from 'firebase/auth'
+import { auth, firebaseReady } from 'src/boot/firebase'
 import routes from './routes'
 
 function getCurrentUser() {
+  if (!firebaseReady || !auth) return Promise.resolve(null)
   return new Promise((resolve) => {
-    const unsubscribe = onAuthStateChanged(getAuth(), (user) => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
       unsubscribe()
       resolve(user)
     })
