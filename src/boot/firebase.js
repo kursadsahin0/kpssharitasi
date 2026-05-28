@@ -2,13 +2,28 @@ import { defineBoot } from '#q-app/wrappers'
 import { initializeApp } from 'firebase/app'
 import { getAuth } from 'firebase/auth'
 
+const requiredEnvKeys = [
+  'VITE_FIREBASE_API_KEY',
+  'VITE_FIREBASE_AUTH_DOMAIN',
+  'VITE_FIREBASE_PROJECT_ID',
+  'VITE_FIREBASE_STORAGE_BUCKET',
+  'VITE_FIREBASE_MESSAGING_SENDER_ID',
+  'VITE_FIREBASE_APP_ID',
+]
+
+for (const key of requiredEnvKeys) {
+  if (!import.meta.env[key]) {
+    throw new Error(`[firebase] Missing required env var: ${key}`)
+  }
+}
+
 const firebaseConfig = {
-  apiKey: 'AIzaSyCcSIbLKFXWzX1bE7jO0ZOSINcve59npOk',
-  authDomain: 'nextjs-auth-6ade1.firebaseapp.com',
-  projectId: 'nextjs-auth-6ade1',
-  storageBucket: 'nextjs-auth-6ade1.firebasestorage.app',
-  messagingSenderId: '907355166468',
-  appId: '1:907355166468:web:4f8e2c9a4e219556506251',
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 }
 
 const app = initializeApp(firebaseConfig)
