@@ -1,0 +1,3759 @@
+[
+  {
+    "id": "t8",
+    "file": "questions-batch1.js",
+    "topicId": "orta-asya-kultur",
+    "text": "Orta Asya için \"Büyük Türkiye\" tanımını kullanan ünlü seyyah kimdir?",
+    "correct": "Marco Polo",
+    "wrongs": [
+      "İbn-i Batuta",
+      "Rubruck",
+      "Priskos"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t15",
+    "file": "questions-batch1.js",
+    "topicId": "goc-iskitler",
+    "text": "Türklerin Orta Asya'dan göç etmesinde hangi devletlerin baskıları etkili olmuştur?",
+    "correct": "Çin, Kitan ve Moğollar",
+    "wrongs": [
+      "Sasaniler, Bizans ve Akhunlar",
+      "Franklar, Avarlar ve Bulgarlar",
+      "Roma, Kartaca ve Persler"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t20",
+    "file": "questions-batch1.js",
+    "topicId": "asya-hun",
+    "text": "Asya Hun Devleti'nin kurucusu kimdir?",
+    "correct": "Teoman (Tu-man)",
+    "wrongs": [
+      "Mete Han",
+      "Balamir",
+      "Ki-ok"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t21",
+    "file": "questions-batch1.js",
+    "topicId": "asya-hun",
+    "text": "Yirmi altı boyu tek bayrak altında toplayarak Asya Hun Devleti'ne en parlak dönemini yaşatan hükümdar kimdir?",
+    "correct": "Mete Han",
+    "wrongs": [
+      "Teoman",
+      "Ki-ok",
+      "Balamir"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t22",
+    "file": "questions-batch1.js",
+    "topicId": "asya-hun",
+    "text": "Vatan toprağının kutsallığını vurgulamasıyla vatan sevgisinden bahseden ilk Asya Hun hükümdarı kimdir?",
+    "correct": "Mete Han",
+    "wrongs": [
+      "Teoman",
+      "Bögü Kağan",
+      "Bilge Kağan"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t24",
+    "file": "questions-batch1.js",
+    "topicId": "asya-hun",
+    "text": "Mete Han'ın Asya Hun Devleti'nin başına geçtiğinde almış olduğu ünvan nedir?",
+    "correct": "Şanyü",
+    "wrongs": [
+      "Kağan",
+      "Yabgu",
+      "Şad"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t25",
+    "file": "questions-batch1.js",
+    "topicId": "asya-hun",
+    "text": "Çin ile yapılan Paiteng Savaşı'nı kazanan Asya Hun Devleti hükümdarı kimdir?",
+    "correct": "Mete Han",
+    "wrongs": [
+      "Teoman",
+      "Ki-ok",
+      "Attila"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t29",
+    "file": "questions-batch1.js",
+    "topicId": "bati-hun-kavimler",
+    "text": "Orta Asya'da siyasi varlıklarını yitiren Hunlar kimin önderliğinde batıya doğru göç etmiştir?",
+    "correct": "Balamir",
+    "wrongs": [
+      "Teoman",
+      "Uldız",
+      "Attila"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t34",
+    "file": "questions-batch1.js",
+    "topicId": "bati-hun-kavimler",
+    "text": "Türkler Anadolu'ya ilk defa hangi lider döneminde gelmiştir?",
+    "correct": "Uldız",
+    "wrongs": [
+      "Balamir",
+      "Attila",
+      "Karaton"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t35",
+    "file": "questions-batch1.js",
+    "topicId": "bati-hun-kavimler",
+    "text": "Batı Hun Kurultayı'nda bağımsızlık vurgusu yapan \"İstiklâli feda etmeyi gülünç ve utanç verici bulurum.\" diyen hükümdar kimdir?",
+    "correct": "Çiçi",
+    "wrongs": [
+      "Hohanyeh",
+      "Teoman",
+      "Uldız"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t37",
+    "file": "questions-batch1.js",
+    "topicId": "bati-hun-kavimler",
+    "text": "Nibelungen Destanı'nda \"Etzel\" olarak anılan Hun hükümdarı kimdir?",
+    "correct": "Attila",
+    "wrongs": [
+      "Balamir",
+      "Uldız",
+      "Rua"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t39",
+    "file": "questions-batch1.js",
+    "topicId": "avar-bulgar",
+    "text": "V. yüzyılda Avrupa'yı etkileyen askeri seferleri sebebiyle Hristiyan dünyası Attila'ya hangi ünvanı vermiştir?",
+    "correct": "Tanrı'nın Kırbacı (Flagellum Dei)",
+    "wrongs": [
+      "Cesur Kavimlerin Efendisi",
+      "Afrasyab",
+      "Manevi Baba"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t40",
+    "file": "questions-batch1.js",
+    "topicId": "avar-bulgar",
+    "text": "Avarlar Devleti en güçlü dönemini kimin zamanında yaşamıştır?",
+    "correct": "Bayan Han",
+    "wrongs": [
+      "Bumin Kağan",
+      "Bilge Kağan",
+      "Teoman"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t42",
+    "file": "questions-batch1.js",
+    "topicId": "avar-bulgar",
+    "text": "Orta Asya kökenli Avarlar farklı kaynaklarda hangi adla da anılmışlardır?",
+    "correct": "Juan Juan",
+    "wrongs": [
+      "Aparlar",
+      "Eftalitler",
+      "Hiung-nu"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t43",
+    "file": "questions-batch1.js",
+    "topicId": "avar-bulgar",
+    "text": "Avarlar kimlerin yardımı ile İstanbul'u iki defa kuşatmıştır?",
+    "correct": "Sasaniler",
+    "wrongs": [
+      "Bizanslılar",
+      "Peçenekler",
+      "Bulgarlar"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t45",
+    "file": "questions-batch1.js",
+    "topicId": "avar-bulgar",
+    "text": "Tarihî kaynaklara göre İstanbul'u kuşatan ilk Türk devleti hangisidir?",
+    "correct": "Avarlar",
+    "wrongs": [
+      "Bulgarlar",
+      "Peçenekler",
+      "Hazar Devleti"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t47",
+    "file": "questions-batch1.js",
+    "topicId": "avar-bulgar",
+    "text": "\"Rihle\" adlı seyahatnamesinde İtil Bulgarlarına dair gözlemlerini kaleme alan İslam düşünürü kimdir?",
+    "correct": "İbn-i Fadlan",
+    "wrongs": [
+      "İbn-i Batuta",
+      "El-Biruni",
+      "Evliya Çelebi"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t48",
+    "file": "questions-batch1.js",
+    "topicId": "avar-bulgar",
+    "text": "İbn-i Fadlan'ın \"Rihle\" eserinde bahsedilen İtil Bulgarları İslamiyet'i kimin zamanında kabul etmiştir?",
+    "correct": "İlteber Almış Han",
+    "wrongs": [
+      "Boris Han",
+      "Bayan Han",
+      "Kutluk Kağan"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t49",
+    "file": "questions-batch1.js",
+    "topicId": "avar-bulgar",
+    "text": "Doğu Avrupa topraklarında İslam kültür ve medeniyetinin ilk temsilcisi olarak kabul edilen Türk-İslam devleti hangisidir?",
+    "correct": "İtil (Volga) Bulgarları",
+    "wrongs": [
+      "Karahanlı Devleti",
+      "Gazneli Devleti",
+      "Tuna Bulgarları"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t50",
+    "file": "questions-batch1.js",
+    "topicId": "avar-bulgar",
+    "text": "Tuna Bulgarları Hristiyanlığı resmî din olarak hangi hükümdar döneminde kabul etmişlerdir?",
+    "correct": "Boris Han",
+    "wrongs": [
+      "Almış Han",
+      "Bayan Han",
+      "Asparuh Han"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "t53",
+    "file": "questions-batch2.js",
+    "topicId": "gokturk-devleti",
+    "text": "Türk edebiyatının ilk yazılı örneği olan \"Orhun Yazıtları\" kimlerin adına dikilmiştir?",
+    "correct": "Vezir Tonyukuk, Kültigin, Bilge Kağan",
+    "wrongs": [
+      "Kutluk Kağan",
+      "Maniakh",
+      "Kürşat"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t58",
+    "file": "questions-batch2.js",
+    "topicId": "gokturk-devleti",
+    "text": "II. Göktürk (Kutluk) Devleti'ni kurarak Türklerin yeniden bağımsızlığını kazandıran hükümdar kimdir?",
+    "correct": "Kutluk Kağan (İlteriş Kağan)",
+    "wrongs": [
+      "Mete Han",
+      "Çaka Bey",
+      "Balamir"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t64",
+    "file": "questions-batch2.js",
+    "topicId": "gokturk-devleti",
+    "text": "II. Göktürk Devleti'nin yıkılmasında etkili olan Türk boyları hangileridir?",
+    "correct": "Uygurlar, Basmiller, Karluklar",
+    "wrongs": [
+      "Türgişler",
+      "Tabgaçlar",
+      "Töles"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t96",
+    "file": "questions-batch2.js",
+    "topicId": "kirgiz-karluk-diger",
+    "text": "Oğuzlar hangi devletlerin kuruluşunda önemli rol oynamışlardır?",
+    "correct": "Büyük Selçuklu Devleti, Anadolu Selçuklu Devleti ve Osmanlı Devleti",
+    "wrongs": [
+      "Asya Hun Devleti",
+      "Sasani Devleti",
+      "Frank Krallığı"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t99",
+    "file": "questions-batch2.js",
+    "topicId": "kirgiz-karluk-diger",
+    "text": "Köklerini Attila'ya dayandıran Macar Devleti'nin kurucusu kimdir?",
+    "correct": "Arpad",
+    "wrongs": [
+      "Kağan",
+      "Yasaname-i Büzürg (Büyük Cengiz Yasaları)",
+      "Kürşat"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t108",
+    "file": "questions-batch2.js",
+    "topicId": "kut-kurultay",
+    "text": "Gök Tanrı tarafından hükümdara verilen yetkiler nelerdir?",
+    "correct": "Kut, küç ve ülüş",
+    "wrongs": [
+      "Töles",
+      "Juan Juan",
+      "Karluklar"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t130",
+    "file": "questions-batch2.js",
+    "topicId": "yonetim-tore",
+    "text": "İslam öncesindeki törelerin değişmez kuralları nelerdir?",
+    "correct": "Könilik, uzluk, tüzlük ve iyilik",
+    "wrongs": [
+      "Juan Juan",
+      "Karluklar",
+      "Türgişler"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t158",
+    "file": "questions-batch2.js",
+    "topicId": "kultur-edebiyat",
+    "text": "Türklerin İslam öncesinde kullandığı millî alfabeler nelerdir?",
+    "correct": "Orhun ve Uygur alfabeleri",
+    "wrongs": [
+      "Töles",
+      "Juan Juan",
+      "Karluklar"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t163",
+    "file": "questions-batch2.js",
+    "topicId": "kultur-edebiyat",
+    "text": "Orhun Abidelerini çözen filolog kimdir?",
+    "correct": "W. Thomsen",
+    "wrongs": [
+      "Kağan",
+      "Yasaname-i Büzürg (Büyük Cengiz Yasaları)",
+      "Bögü Kağan"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t178",
+    "file": "questions-batch3.js",
+    "topicId": "islam-karahanli",
+    "text": "Karahanlı Devleti'nin oluşumunda etkili olan boylar hangileridir?",
+    "correct": "Karluk, Yağma, Tuhsi ve Çiğil",
+    "wrongs": [
+      "Töles",
+      "Kök Türk, Uygur, Sasani ve Akhun gelenekleri; İslam esasları; Oğuz kabile gelenekleri",
+      "Karahanlılar"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t198",
+    "file": "questions-batch3.js",
+    "topicId": "gazneli-selcuklu",
+    "text": "Padişah ünvanını kullanan ilk Türk hükümdar kimdir?",
+    "correct": "Alp Tigin",
+    "wrongs": [
+      "Kutluk Bilge Kül Kağan",
+      "Kağan",
+      "Yasaname-i Büzürg (Büyük Cengiz Yasaları)"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t218",
+    "file": "questions-batch3.js",
+    "topicId": "gazneli-selcuklu",
+    "text": "Bâtınilik faaliyetlerine son veren İlhanlı hükümdarı kimdir?",
+    "correct": "Hülagü Han",
+    "wrongs": [
+      "Kutluk Bilge Kül Kağan",
+      "Kağan",
+      "Yasaname-i Büzürg (Büyük Cengiz Yasaları)"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t221",
+    "file": "questions-batch3.js",
+    "topicId": "selcuklu-egipt",
+    "text": "Büyük Selçuklu Devleti'nden bahseden Hristiyan tarihçi kimdir?",
+    "correct": "Urfa'lı Mateos",
+    "wrongs": [
+      "Kağan",
+      "Yasaname-i Büzürg (Büyük Cengiz Yasaları)",
+      "Sultan Baybars"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t228",
+    "file": "questions-batch3.js",
+    "topicId": "selcuklu-egipt",
+    "text": "İhşidiler Devleti'nin kurucusu kimdir?",
+    "correct": "Muhammed bin Togaç (Ferganalı Muhammed)",
+    "wrongs": [
+      "Vezir Tonyukuk",
+      "Gazneli Mahmut",
+      "İstemi Yagbu"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t251",
+    "file": "questions-batch3.js",
+    "topicId": "anadolu-beylikleri",
+    "text": "Çaka Bey'in ölümüne neden olan Anadolu Selçuklu hükümdarı kimdir?",
+    "correct": "I. Kılıçarslan",
+    "wrongs": [
+      "Yasaname-i Büzürg (Büyük Cengiz Yasaları)",
+      "Çaka Bey",
+      "Vezir Tonyukuk"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t252",
+    "file": "questions-batch3.js",
+    "topicId": "anadolu-beylikleri",
+    "text": "Deniz Kuvvetleri kuruluş tarihi olarak kabul edilen olay hangisidir?",
+    "correct": "Çaka Bey'in 1081 yılında donanma kurması",
+    "wrongs": [
+      "Çaka Bey",
+      "Kutluk Bilge Kül Kağan",
+      "Kül Bilge Kadir Han"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t262",
+    "file": "questions-batch3.js",
+    "topicId": "akkoyunlu-timur",
+    "text": "Agra'daki Taç Mahal hangi hükümdar için yaptırılmıştır?",
+    "correct": "Cihan Şah (Babür İmparatoru)",
+    "wrongs": [
+      "İstemi Yagbu",
+      "Kutluk Kağan",
+      "Bilge Kağan"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t290",
+    "file": "questions-batch3.js",
+    "topicId": "ilk-muslim-teskilat",
+    "text": "Cengiz Han döneminde hazırlanan kanunlar bütününe ne ad verilir?",
+    "correct": "Yasaname-i Büzürg (Büyük Cengiz Yasaları)",
+    "wrongs": [
+      "Sultan Baybars",
+      "Sultan Sencer",
+      "Tuğrul Bey"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t313",
+    "file": "questions-batch3.js",
+    "topicId": "ordu-toplum",
+    "text": "Has araziler ve gelirleri kimlere aitti?",
+    "correct": "Sultana, ailesine ve yakınlarına",
+    "wrongs": [
+      "Tabgaçlar",
+      "Karahanlılar",
+      "İlhanlılar"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t353",
+    "file": "questions-batch4.js",
+    "topicId": "islam-bilim-edebiyat",
+    "text": "\"Atabetü'l Hakayık\" eserinin sahibi kimdir?",
+    "correct": "Edip Ahmet Yükneki",
+    "wrongs": [
+      "Kürşat",
+      "Uldız",
+      "Orhan Bey"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t393",
+    "file": "questions-batch4.js",
+    "topicId": "anadolu-beylik-edebiyat",
+    "text": "\"Cimri\" lakaplı Alaaddin Siyavuş kimdir?",
+    "correct": "II. İzzeddin Keykavus'un oğlu, Karamanoğlu ile ittifaklı",
+    "wrongs": [
+      "Sultan Baybars",
+      "Sultan Sencer",
+      "İstemi Yagbu"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t414",
+    "file": "questions-batch4.js",
+    "topicId": "osmanli-kultur",
+    "text": "Osmanlı kültürünün oluşumunda örnek alınan devletler hangileridir?",
+    "correct": "Türkiye Selçuklu Devleti, İlhanlı Devleti",
+    "wrongs": [
+      "Bulgaristan",
+      "Venedik",
+      "Doğu Anadolu'nun Türk yurdu olduğunu göstermek; Ermeni devletine engel olmak"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t464",
+    "file": "questions-batch5.js",
+    "topicId": "osmanli-divan-idare",
+    "text": "Mukataaların mültezimlere hayat boyu verilmesine ne ad verilir?",
+    "correct": "Malikâne",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "t511",
+    "file": "questions-batch5.js",
+    "topicId": "osmanli-ordu",
+    "text": "Osmanlı askerî teşkilatı hangi devletlerden örnek alınmıştır?",
+    "correct": "Selçuklular, İlhanlılar ve Memluklar",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t561",
+    "file": "questions-batch5.js",
+    "topicId": "osmanli-egitim-bilim",
+    "text": "Aristo Fizika çevirisi yapan \"Muallim-i Salis\" kimdir?",
+    "correct": "Yanyalı Esad Efendi",
+    "wrongs": [
+      "Voyvoda",
+      "Kanuni, II. Selim ve III. Murad",
+      "Takiyüddin Mehmet"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t562",
+    "file": "questions-batch6.js",
+    "topicId": "osmanli-ekonomi",
+    "text": "Galata Kulesi'nden uçan ve ilk uçuşu yapan bilim insanı kimdir?",
+    "correct": "Hezarfen Ahmet Çelebi",
+    "wrongs": [
+      "Voyvoda",
+      "Humbaracı Ahmet Paşa",
+      "Mehmet Fatin Gökmen"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t763",
+    "file": "questions-batch7.js",
+    "topicId": "osmanli-yukselme-kanuni",
+    "text": "Sokullu hangi padişahlar döneminde sadrazamdır?",
+    "correct": "Kanuni, II. Selim ve III. Murad",
+    "wrongs": [
+      "Nurettin Paşa",
+      "Ali Rıza Paşa",
+      "İbn-i Batuta"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t787",
+    "file": "questions-batch7.js",
+    "topicId": "osmanli-17-yuzyil",
+    "text": "II. Viyana'da idam edilen devlet adamı kimdir?",
+    "correct": "Merzifonlu Kara Mustafa Paşa",
+    "wrongs": [
+      "Beylerbeyi",
+      "III. Selim",
+      "Kantakuzen"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t980",
+    "file": "questions-batch8.js",
+    "topicId": "osmanli-19-tanzimat",
+    "text": "Mecelle hangi komisyon tarafından oluşturulmuştur?",
+    "correct": "Ahmet Cevdet Paşa başkanlığındaki komisyon",
+    "wrongs": [
+      "Enver Paşa",
+      "Cemal Paşa",
+      "Orhan Bey"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t987",
+    "file": "questions-batch8.js",
+    "topicId": "osmanli-19-tanzimat",
+    "text": "\"Maarifperver\" lakaplı padişah kimdir?",
+    "correct": "II. Abdülhamit",
+    "wrongs": [
+      "Mısır Valisi Mehmet Ali Paşa",
+      "Goben-Yavuz, Breslav-Midilli",
+      "Kanuni, II. Selim ve III. Murad"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1010",
+    "file": "questions-batch8.js",
+    "topicId": "osmanli-19-mesrutiyet",
+    "text": "Meclis kararıyla görevden alınan ilk padişah kimdir?",
+    "correct": "II. Abdülhamit",
+    "wrongs": [
+      "Kanuni, II. Selim ve III. Murad",
+      "Sultan Vahdettin",
+      "Ziya Gökalp"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1020",
+    "file": "questions-batch8.js",
+    "topicId": "osmanli-19-mesrutiyet",
+    "text": "Türkçülük öncüleri kimlerdir?",
+    "correct": "Yusuf Akçura, İsmail Gaspıralı, Ziya Gökalp, Fuad Köprülü",
+    "wrongs": [
+      "Sokullu Mehmed Paşa",
+      "Tarhuncu Ahmet Paşa",
+      "Baltacı Mehmet Paşa"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1062",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-20-balkan-savaslari",
+    "text": "I. Dünya Savaşı başında İtilaf devletleri hangileridir?",
+    "correct": "İngiltere, Fransa, Çarlık Rusya",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1074",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-20-1-dunya-savasi",
+    "text": "Osmanlı savunma cepheleri hangileridir?",
+    "correct": "Çanakkale, Irak, Hicaz, Yemen, Suriye, Filistin",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1076",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-20-1-dunya-savasi",
+    "text": "Müttefiklere yardım cepheleri hangileridir?",
+    "correct": "Galiçya, Makedonya ve Romanya cepheleri",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1080",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-20-1-dunya-savasi",
+    "text": "Brest Litovsk ile geri kazanılan topraklar hangileridir?",
+    "correct": "Elviye-i Selase (Kars, Ardahan ve Batum)",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1156",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-20-mondros",
+    "text": "İzmir işgalinde şehit edilen komutan kimdir?",
+    "correct": "Albay Süleyman Fethi Bey",
+    "wrongs": [
+      "I. Murat",
+      "Voyvoda",
+      "Kara Mehmet Çavuş"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1157",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-20-mondros",
+    "text": "İşgallerle ilgili ilk uluslararası raporu hazırlayan kimdir?",
+    "correct": "Mark Lambert Bristol (Amiral)",
+    "wrongs": [
+      "Voyvoda",
+      "Kara Mehmet Çavuş",
+      "Ahmet İzzet Paşa"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1192",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-mm-hazirlik",
+    "text": "9. Ordu Müfettişliği yetki illeri hangileridir?",
+    "correct": "Samsun, Sivas, Erzurum, Van, Trabzon",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1202",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-mm-hazirlik",
+    "text": "Hazırlık döneminde Mustafa Kemal'in çalıştığı şehirler hangileridir?",
+    "correct": "Samsun, Amasya, Erzurum, Sivas, Ankara",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1219",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-mm-hazirlik",
+    "text": "Erzurum Kongresine delege gönderen iller hangileridir?",
+    "correct": "Bitlis, Erzurum, Sivas, Trabzon, Van",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1220",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-mm-hazirlik",
+    "text": "Erzurum'a delege gönderemeyen iller hangileridir?",
+    "correct": "Diyarbakır, Elazığ, Mardin",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1231",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-mm-hazirlik",
+    "text": "Ulusal egemenlikten bahsedilen gelişmeler hangileridir?",
+    "correct": "Amasya, Erzurum ve Sivas kongreleri",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1235",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-mm-hazirlik",
+    "text": "Mustafa Kemal'in yönlendirdiği kongreler hangileridir?",
+    "correct": "Erzurum, Sivas, Afyon, Pozantı",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1236",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-mm-hazirlik",
+    "text": "Temsil Heyetinin ilk siyasi başarısı nedir?",
+    "correct": "Damat Ferit hükümetinin istifası, Ali Rıza kabinesi",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1239",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-mm-hazirlik",
+    "text": "Amasya Görüşmelerinde İstanbul'u kim temsil etmiştir?",
+    "correct": "Bahriye Nazırı Salih Paşa",
+    "wrongs": [
+      "Enver Paşa",
+      "Cemal Paşa",
+      "Orhan Bey"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1264",
+    "file": "questions-batch9.js",
+    "topicId": "osmanli-mm-hazirlik",
+    "text": "Mustafa Kemal'in katıldığı kongreler hangileridir?",
+    "correct": "Erzurum, Sivas, Pozantı, Afyon",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1273",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-tbmm-1",
+    "text": "TBMM otoritesini sarsmak için ayaklananlar kimlerdir?",
+    "correct": "İstanbul Hükümeti, İtilaf Devletleri ve azınlıklar",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1295",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-tbmm-1",
+    "text": "Kuvayımilliye içindeki isyanlar hangileridir?",
+    "correct": "Demirci Mehmet Efe ve Çerkez Ethem Ayaklanması",
+    "wrongs": [
+      "Enver Paşa",
+      "Cemal Paşa",
+      "Orhan Bey"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1297",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-tbmm-1",
+    "text": "MM'ye karşı desteklenen yayın organları hangileridir?",
+    "correct": "Peyam-ı Sabah, İstanbul, Alemdar",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1298",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-tbmm-1",
+    "text": "Kurtuluş Savaşını destekleyen gazeteler hangileridir?",
+    "correct": "Vakit, Tasviri Efkâr, İkdam, İleri, Yenigün, Tercüman",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1301",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-tbmm-1",
+    "text": "Marmara-Boğaz ayaklanmaları hangileridir?",
+    "correct": "Bolu, Düzce, Hendek ve Adapazarı",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1312",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-tbmm-1",
+    "text": "İmzalanıp yürürlüğe girmeyen antlaşmalar hangileridir?",
+    "correct": "Ayastefanos, Sevr",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "t1316",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-tbmm-1",
+    "text": "Sevr heyetinde kimler vardı?",
+    "correct": "Rıza Tevfik, Hadi Paşa, Reşat Halis",
+    "wrongs": [
+      "Ali Rıza Paşa",
+      "İbn-i Batuta",
+      "Cengiz Topel"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1372",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-mm-muharebe",
+    "text": "İstiklal Marşı'nı mecliste okuyan bakan kimdir?",
+    "correct": "Hamdullah Suphi (Tanrıöver) Bey",
+    "wrongs": [
+      "Ali Rıza Paşa",
+      "İbn-i Batuta",
+      "Cengiz Topel"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1411",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-mm-muharebe",
+    "text": "Kars Antlaşması hangi devletlerle?",
+    "correct": "Azerbaycan, Ermenistan ve Gürcistan",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1430",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-mm-lozan",
+    "text": "Mudanya ile savaşsız alınan yerler hangileridir?",
+    "correct": "İstanbul, Boğazlar ve Doğu Trakya",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1433",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-mm-lozan",
+    "text": "Lozan'a katılan delegeler kimlerdir?",
+    "correct": "İsmet İnönü, Hasan Saka, Dr. Rıza Nur",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1508",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-ataturk-inkilap",
+    "text": "Türk dilini zenginleştirmek için kurulan kurum hangisidir?",
+    "correct": "Türk Dilini Tetkik Cemiyeti (TDK, 1932)",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1512",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-ataturk-inkilap",
+    "text": "1935'te kurulan fakülte hangisidir?",
+    "correct": "Ankara Dil, Tarih ve Coğrafya Fakültesi",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1526",
+    "file": "questions-batch10.js",
+    "topicId": "osmanli-ataturk-inkilap",
+    "text": "Kıyafet kanunu kimi kapsamaz?",
+    "correct": "Diyanet Başkanı, Rum ve Ermeni patrikleri",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1549",
+    "file": "questions-batch11.js",
+    "topicId": "osmanli-ataturk-ekonomi-sosyal",
+    "text": "Kadınlara seçme-seçilme hakkı sırası nasıldır?",
+    "correct": "1930 belediye, 1933 muhtarlık, 1934 milletvekili",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1575",
+    "file": "questions-batch11.js",
+    "topicId": "osmanli-ataturk-hayat",
+    "text": "Hayatını etkileyen beş şehir hangileridir?",
+    "correct": "Selanik, Manastır, İstanbul, Sofya, Şam",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1578",
+    "file": "questions-batch11.js",
+    "topicId": "osmanli-ataturk-hayat",
+    "text": "\"Cenge Giderken\" hangi şaire aittir?",
+    "correct": "Mehmet Emin Yurdakul",
+    "wrongs": [
+      "Voyvoda",
+      "Ziya Gökalp",
+      "Humbaracı Ahmet Paşa"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1614",
+    "file": "questions-batch11.js",
+    "topicId": "osmanli-ataturk-hayat",
+    "text": "İç-dış politika ilkesi nedir?",
+    "correct": "Yurtta barış, dünyada barış",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1647",
+    "file": "questions-batch11.js",
+    "topicId": "osmanli-ataturk-dis-politika",
+    "text": "Sadabat üyeleri hangileridir?",
+    "correct": "Türkiye, İran, Irak, Afganistan",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1673",
+    "file": "questions-batch11.js",
+    "topicId": "osmanli-dunya-20-baslari",
+    "text": "NEP ne vaat eder?",
+    "correct": "Barış, toprak ve ekmek",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "t1711",
+    "file": "questions-batch11.js",
+    "topicId": "osmanli-dunya-2-ds",
+    "text": "Potsdam'a katılan devletler?",
+    "correct": "ABD, İngiltere, SSCB",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "t1718",
+    "file": "questions-batch11.js",
+    "topicId": "osmanli-dunya-2-ds",
+    "text": "Türkiye'yi savaşa çekmek için konferanslar?",
+    "correct": "Adana (1943), Kahire (1943)",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1729",
+    "file": "questions-batch12.js",
+    "topicId": "osmanli-2ds-turkiye",
+    "text": "Yalta'nın Üç Büyükleri kimlerdir?",
+    "correct": "Churchill, Roosevelt, Stalin",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1763",
+    "file": "questions-batch12.js",
+    "topicId": "osmanli-soguk-savas",
+    "text": "1953 Balkan Paktı üyeleri kimler?",
+    "correct": "Türkiye, Yugoslavya, Yunanistan",
+    "wrongs": [
+      "Akıncılar",
+      "Ermeniler ve Gürcüler"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "t1870",
+    "file": "questions-batch12.js",
+    "topicId": "osmanli-kuresellesen",
+    "text": "Şanghay İş Birliği kurucuları (1996)?",
+    "correct": "Çin, Rusya, Kırgızistan, Kazakistan, Tacikistan",
+    "wrongs": [
+      "Ermeniler ve Gürcüler",
+      "Akıncılar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c12",
+    "file": "questions-cografya-batch1.js",
+    "topicId": "cografya-konum",
+    "text": "Kuzey Yarım Küre'de olmanın sonuçlarından hangileri doğrudur? (Gölge, rüzgâr, deniz turizmi)",
+    "correct": "Hepsi (I, II ve III)",
+    "wrongs": [
+      "Bolkar Dağları",
+      "Dağların kıyıya paralel uzanması",
+      "Topraktutan (Beysun) Köyü, Hatay"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c27",
+    "file": "questions-cografya-batch1.js",
+    "topicId": "cografya-konum",
+    "text": "Türkiye'nin koordinat aralığı?",
+    "correct": "36°-42° K paralelleri, 26°-45° D meridyenleri",
+    "wrongs": [
+      "Bolkar Dağları",
+      "Topraktutan (Beysun) Köyü, Hatay",
+      "Hepsi (I, II ve III)"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c41",
+    "file": "questions-cografya-batch1.js",
+    "topicId": "cografya-konum",
+    "text": "En uzun ve en kısa kara sınırı hangi ülkelerle?",
+    "correct": "Suriye (en uzun), Nahçıvan (en kısa)",
+    "wrongs": [
+      "Hepsi (I, II ve III)",
+      "Dağların kıyıya paralel uzanması",
+      "Fiyord, haliç ve skyer"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c54",
+    "file": "questions-cografya-batch1.js",
+    "topicId": "cografya-yeryuzu",
+    "text": "İç Anadolu volkanik dağları hangileridir?",
+    "correct": "Erciyes, Hasan, Melendiz, Karadağ, Karacadağ",
+    "wrongs": [
+      "Bolkar Dağları",
+      "Karasallık, yükselti, Sibirya yüksek basıncı",
+      "36°-42° K paralelleri, 26°-45° D meridyenleri"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c62",
+    "file": "questions-cografya-batch1.js",
+    "topicId": "cografya-yeryuzu",
+    "text": "Türkiye'deki plato çeşitleri nelerdir?",
+    "correct": "Karstik, volkanik, aşınım, yatay duruşlu",
+    "wrongs": [
+      "Hepsi (I, II ve III)",
+      "Erciyes, Hasan, Melendiz, Karadağ, Karacadağ",
+      "Dağların kıyıya paralel uzanması"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c63",
+    "file": "questions-cografya-batch1.js",
+    "topicId": "cografya-yeryuzu",
+    "text": "Volkanik platolar hangileridir?",
+    "correct": "Erzurum-Kars, Ardahan, Nevşehir",
+    "wrongs": [
+      "Dağların kıyıya paralel uzanması",
+      "Haymana, Cihanbeyli, Obruk",
+      "Karstik, volkanik, aşınım, yatay duruşlu"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c66",
+    "file": "questions-cografya-batch1.js",
+    "topicId": "cografya-yeryuzu",
+    "text": "Ankara-Niğde-Konya yolunda görülen platolar?",
+    "correct": "Haymana, Cihanbeyli, Obruk",
+    "wrongs": [
+      "Lös, kumul, barkan",
+      "Bolkar Dağları",
+      "Karstik, volkanik, aşınım, yatay duruşlu"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c82",
+    "file": "questions-cografya-batch1.js",
+    "topicId": "cografya-yeryuzu",
+    "text": "Rüzgârın biriktirdiği şekiller?",
+    "correct": "Lös, kumul, barkan",
+    "wrongs": [
+      "Fiyord, haliç ve skyer",
+      "Haymana, Cihanbeyli, Obruk",
+      "Erzurum-Kars, Ardahan, Nevşehir"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c93",
+    "file": "questions-cografya-batch1.js",
+    "topicId": "cografya-yeryuzu",
+    "text": "Türkiye'de görülmeyen kıyı tipleri?",
+    "correct": "Fiyord, haliç ve skyer",
+    "wrongs": [
+      "Hepsi (I, II ve III)",
+      "Topraktutan (Beysun) Köyü, Hatay",
+      "36°-42° K paralelleri, 26°-45° D meridyenleri"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c100",
+    "file": "questions-cografya-batch1.js",
+    "topicId": "cografya-iklim",
+    "text": "İklimi oluşturan temel unsurlar?",
+    "correct": "Sıcaklık, basınç, rüzgâr, nem, yağış",
+    "wrongs": [
+      "Lös, kumul, barkan",
+      "Bolkar Dağları",
+      "Karasallık, yükselti, Sibirya yüksek basıncı"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c105",
+    "file": "questions-cografya-batch1.js",
+    "topicId": "cografya-iklim",
+    "text": "Erzurum-Kars'ın ocakta en soğuk olma nedenleri?",
+    "correct": "Karasallık, yükselti, Sibirya yüksek basıncı",
+    "wrongs": [
+      "Karstik, volkanik, aşınım, yatay duruşlu",
+      "Topraktutan (Beysun) Köyü, Hatay",
+      "Dağların kıyıya paralel uzanması"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c114",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-iklim",
+    "text": "Ege-Akdeniz yaz kuraklığında etkili yıl boyu basınç?",
+    "correct": "Asor Dinamik Yüksek Basıncı",
+    "wrongs": [
+      "Karagöl (volkanik değil, buzul)",
+      "Marmara, Ege ve Akdeniz",
+      "Marmara (fazla), Doğu Anadolu (az)"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c125",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-iklim",
+    "text": "Yağış oluşum şekilleri nelerdir?",
+    "correct": "Yamaç, konveksiyonel, cephe yağışları",
+    "wrongs": [
+      "Terkos, Büyükçekmece, Küçükçekmece",
+      "Marmara (fazla), Doğu Anadolu (az)",
+      "Abant, Yedigöller, Tortum, Sera"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c131",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-iklim",
+    "text": "En çok yağışı kışta alan bölgeler hangileridir?",
+    "correct": "Akdeniz, Güneydoğu Anadolu ve Ege",
+    "wrongs": [
+      "Marmara, Ege ve Akdeniz",
+      "Toros Dağları",
+      "Dağların kıyıya uzanış doğrultusu"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c153",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-iklim",
+    "text": "Dağlık yapının akarsu üzerindeki etkisi?",
+    "correct": "Hızlı akış, fazla aşındırma ve HES potansiyeli",
+    "wrongs": [
+      "Dağların kıyıya uzanış doğrultusu",
+      "Yarımada, iklim ve yer şekilleri",
+      "Marmara (fazla), Doğu Anadolu (az)"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c156",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-iklim",
+    "text": "Akarsu boylarının kısa olmasının sebepleri?",
+    "correct": "Yarımada, iklim ve yer şekilleri",
+    "wrongs": [
+      "Alt sınır nem, üst sınır enlem",
+      "Marmara (fazla), Doğu Anadolu (az)",
+      "Çoruh, Dicle ve Bakırçay"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c158",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Karadeniz'e dökülen önemli akarsular?",
+    "correct": "Çoruh, Kızılırmak, Yeşilırmak, Sakarya, Filyos",
+    "wrongs": [
+      "Hızlı akış, fazla aşındırma ve HES potansiyeli",
+      "Toprak, bitki ve tarım ürünü çeşitliliği",
+      "Yamaç, konveksiyonel, cephe yağışları"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c168",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Başka bölgeden kaynaklanıp Akdeniz'e dökülen nehirler?",
+    "correct": "Seyhan, Ceyhan, Göksu",
+    "wrongs": [
+      "Yarımada, iklim ve yer şekilleri",
+      "Akdeniz, Güneydoğu Anadolu ve Ege",
+      "Dağların kıyıya uzanış doğrultusu"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c173",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Akarsu beslenme kaynakları?",
+    "correct": "Kar-buz erimesi, yağmur, karstik erime",
+    "wrongs": [
+      "Toros Dağları",
+      "Yamaç, konveksiyonel, cephe yağışları",
+      "Toprak, bitki ve tarım ürünü çeşitliliği"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c174",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Kaynağını kar-buzdan alan akarsular?",
+    "correct": "Çoruh, Dicle ve Bakırçay",
+    "wrongs": [
+      "Akdeniz, Güneydoğu Anadolu ve Ege",
+      "Dağların kıyıya uzanış doğrultusu",
+      "Marmara (fazla), Doğu Anadolu (az)"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c175",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Yurt dışına giden akarsular?",
+    "correct": "Fırat, Dicle, Zap, Aras, Kura, Çoruh",
+    "wrongs": [
+      "Marmara (fazla), Doğu Anadolu (az)",
+      "Akdeniz, Güneydoğu Anadolu ve Ege",
+      "Dağların kıyıya uzanış doğrultusu"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c176",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Asi ve Meriç'in ortak özellikleri?",
+    "correct": "Kaynak yurt dışı, taşkın, doğal sınır",
+    "wrongs": [
+      "Marmara (fazla), Doğu Anadolu (az)",
+      "Akdeniz, Güneydoğu Anadolu ve Ege",
+      "Dağların kıyıya uzanış doğrultusu"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c181",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Karstik göllere örnek?",
+    "correct": "Salda, Karagöl (Burdur), Avlan",
+    "wrongs": [
+      "Yer şekilleri, dağ uzanışı, kuraklık, yağış azlığı, karst",
+      "Yarımada, iklim ve yer şekilleri",
+      "Akdeniz, Güneydoğu Anadolu ve Ege"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c182",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Volkanik göllere örnek?",
+    "correct": "Nemrut, Meke, Acıgöl, Gölcük",
+    "wrongs": [
+      "Birincil, ikincil, üçüncül",
+      "Yarımada, iklim ve yer şekilleri",
+      "Akdeniz, Güneydoğu Anadolu ve Ege"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c184",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Volkanik set gölleri?",
+    "correct": "Van, Çıldır, Haçlı, Nazik",
+    "wrongs": [
+      "Yarımada, iklim ve yer şekilleri",
+      "Akdeniz, Güneydoğu Anadolu ve Ege",
+      "Dağların kıyıya uzanış doğrultusu"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c185",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Heyelan set gölleri?",
+    "correct": "Abant, Yedigöller, Tortum, Sera",
+    "wrongs": [
+      "Marmara (fazla), Doğu Anadolu (az)",
+      "Birincil, ikincil, üçüncül",
+      "Yamaç, konveksiyonel, cephe yağışları"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c186",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Alüvyal set gölleri?",
+    "correct": "Eymir, Mogan, Köyceğiz",
+    "wrongs": [
+      "Dağların kıyıya uzanış doğrultusu",
+      "Marmara (fazla), Doğu Anadolu (az)",
+      "Yamaç, konveksiyonel, cephe yağışları"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c187",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Kıyı set gölleri?",
+    "correct": "Terkos, Büyükçekmece, Küçükçekmece",
+    "wrongs": [
+      "Toprak, bitki ve tarım ürünü çeşitliliği",
+      "Birincil, ikincil, üçüncül",
+      "Marmara, Ege ve Akdeniz"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c189",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Göl eşleştirmesinde dışarıda kalan?",
+    "correct": "Karagöl (volkanik değil, buzul)",
+    "wrongs": [
+      "Çoruh, Dicle ve Bakırçay",
+      "Toros Dağları",
+      "Yarımada, iklim ve yer şekilleri"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c193",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Karadeniz'in az tuzlu olma nedenleri?",
+    "correct": "Enlem, bol yağış, tatlı su karışımı",
+    "wrongs": [
+      "Dağların kıyıya uzanış doğrultusu",
+      "Yarımada, iklim ve yer şekilleri",
+      "Toprak, bitki ve tarım ürünü çeşitliliği"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c197",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Yer altı su kaynakları türleri?",
+    "correct": "Karstik, yamaç, artezyen, fay",
+    "wrongs": [
+      "Toprak, bitki ve tarım ürünü çeşitliliği",
+      "Hızlı akış, fazla aşındırma ve HES potansiyeli",
+      "Kuraklık, orman yangını, erken olgunlaşma, verim düşüklüğü"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c202",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Ana toprak tipleri?",
+    "correct": "Zonal, intrazonal, azonal",
+    "wrongs": [
+      "Salda, Karagöl (Burdur), Avlan",
+      "Alt sınır nem, üst sınır enlem",
+      "Abant, Yedigöller, Tortum, Sera"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c206",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Podzol toprak özellikleri doğru olanlar?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Marmara, Ege ve Akdeniz",
+      "Akdeniz, Güneydoğu Anadolu ve Ege",
+      "Dağların kıyıya uzanış doğrultusu"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c222",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Orman alt ve üst sınırını ne belirler?",
+    "correct": "Alt sınır nem, üst sınır enlem",
+    "wrongs": [
+      "Hızlı akış, fazla aşındırma ve HES potansiyeli",
+      "Karagöl (volkanik değil, buzul)",
+      "Çoruh, Dicle ve Bakırçay"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c232",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-su-bitki-toprak",
+    "text": "Kirli akarsular?",
+    "correct": "Ergene, Sakarya, Filyos",
+    "wrongs": [
+      "Enlem, bol yağış, tatlı su karışımı",
+      "Fırat, Dicle, Zap, Aras, Kura, Çoruh",
+      "Kaynak yurt dışı, taşkın, doğal sınır"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c247",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "Nüfus sayımıyla ilgili doğru bilgiler?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Yarımada, iklim ve yer şekilleri",
+      "Karagöl (volkanik değil, buzul)",
+      "Alt sınır nem, üst sınır enlem"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c252",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "Gerçek nüfus artışı en çok hangi bölgelerde?",
+    "correct": "Marmara, Ege ve Akdeniz",
+    "wrongs": [
+      "Alt sınır nem, üst sınır enlem",
+      "Karagöl (volkanik değil, buzul)",
+      "Yarımada, iklim ve yer şekilleri"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c259",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "Madenci, fırıncı ve bankacı hangi sektörlerde?",
+    "correct": "Birincil, ikincil, üçüncül",
+    "wrongs": [
+      "Toprak, bitki ve tarım ürünü çeşitliliği",
+      "Hızlı akış, fazla aşındırma ve HES potansiyeli",
+      "Çoruh, Kızılırmak, Yeşilırmak, Sakarya, Filyos"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c261",
+    "file": "questions-cografya-batch2.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "Aritmetik yoğunluğun en fazla ve az bölgesi?",
+    "correct": "Marmara (fazla), Doğu Anadolu (az)",
+    "wrongs": [
+      "Dağların kıyıya uzanış doğrultusu",
+      "Yarımada, iklim ve yer şekilleri",
+      "Karagöl (volkanik değil, buzul)"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c276",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "Kalıcı köyaltı yerleşmeleri?",
+    "correct": "Mezra, divan, çiftlik, mahalle",
+    "wrongs": [
+      "Adıyaman, Batman, Diyarbakır, Gaziantep, Kilis, Mardin, Siirt, Şanlıurfa, Şırnak",
+      "Konya, Niğde, Nevşehir, Kırıkkale, Aksaray, Karaman, Kırşehir, Yozgat",
+      "Ordu, Giresun, Trabzon, Rize, Artvin, Gümüşhane, Bayburt, Samsun, Tokat, Çorum, Amasya"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c277",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "Geçici köyaltı yerleşmeleri?",
+    "correct": "Oba, yayla, dam, ağıl, güzle",
+    "wrongs": [
+      "Konya, Niğde, Nevşehir, Kırıkkale, Aksaray, Karaman, Kırşehir, Yozgat",
+      "Ordu, Giresun, Trabzon, Rize, Artvin, Gümüşhane, Bayburt, Samsun, Tokat, Çorum, Amasya",
+      "Erzurum, Erzincan, Bayburt, Gümüşhane, Kars, Ağrı, Ardahan, Iğdır, Muş"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c284",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "Aksaray, Eskişehir, Van fonksiyonları?",
+    "correct": "Ulaşım, eğitim, tarım",
+    "wrongs": [
+      "Konya, Niğde, Nevşehir, Kırıkkale, Aksaray, Karaman, Kırşehir, Yozgat",
+      "Ordu, Giresun, Trabzon, Rize, Artvin, Gümüşhane, Bayburt, Samsun, Tokat, Çorum, Amasya",
+      "Erzurum, Erzincan, Bayburt, Gümüşhane, Kars, Ağrı, Ardahan, Iğdır, Muş"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c294",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "Göçe iten sosyal neden?",
+    "correct": "Etnik-dini baskı, kan davası",
+    "wrongs": [
+      "İklim bağımlılığı fazla, verim düşük",
+      "Rezervi fazla, ısı gücü taş kömüründen düşük",
+      "Küçük kentten büyük kente, doğudan batıya"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c296",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "En çok göç veren bölgeler?",
+    "correct": "Karadeniz, Doğu Anadolu, Güneydoğu Anadolu",
+    "wrongs": [
+      "Küçük kentten büyük kente, doğudan batıya",
+      "Mezra, divan, çiftlik, mahalle",
+      "Karasal, su sınırlı, düz arazi"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c298",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "En çok göç alan bölgeler?",
+    "correct": "Marmara, Ege, Akdeniz",
+    "wrongs": [
+      "Etnik-dini baskı, kan davası",
+      "Mezra, divan, çiftlik, mahalle",
+      "Karasal, su sınırlı, düz arazi"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c300",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-kalkinma",
+    "text": "GAP hedef alanları?",
+    "correct": "Tarım, sanayi, ulaşım, enerji, göç önleme, eğitim",
+    "wrongs": [
+      "Kastamonu-Küre, Artvin-Murgul, Rize-Çayeli",
+      "Küçük kentten büyük kente, doğudan batıya",
+      "Ekstansif, nadas, intensif, nöbetleşe"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c310",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-kalkinma",
+    "text": "Yeşilırmak Havzası Projesi illeri?",
+    "correct": "Tokat, Amasya, Çorum, Samsun",
+    "wrongs": [
+      "Mezra, divan, çiftlik, mahalle",
+      "Karasal, su sınırlı, düz arazi",
+      "Sivas-Divriği, Malatya-Hekimhan"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c313",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-tarim-hayvancilik",
+    "text": "Türkiye'de tarım tipleri?",
+    "correct": "Ekstansif, nadas, intensif, nöbetleşe",
+    "wrongs": [
+      "Mezra, divan, çiftlik, mahalle",
+      "Karasal, su sınırlı, düz arazi",
+      "Rezervi fazla, ısı gücü taş kömüründen düşük"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c344",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-maden-enerji",
+    "text": "Demir çıkarılan yerler?",
+    "correct": "Sivas-Divriği, Malatya-Hekimhan",
+    "wrongs": [
+      "Geliri düşük, tercih edilmemesi",
+      "İklimden etkilenmez, suni yem",
+      "Etnik-dini baskı, kan davası"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c346",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-maden-enerji",
+    "text": "Bakır çıkarılan yerler?",
+    "correct": "Kastamonu-Küre, Artvin-Murgul, Rize-Çayeli",
+    "wrongs": [
+      "Ulaşım, eğitim, tarım",
+      "Marmara, Ege, Akdeniz",
+      "Konya, Niğde, Nevşehir, Kırıkkale, Aksaray, Karaman, Kırşehir, Yozgat"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c348",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-maden-enerji",
+    "text": "Boksit (alüminyum) çıkarılan yerler?",
+    "correct": "Antalya-Akseki, Konya-Seydişehir",
+    "wrongs": [
+      "Modern teknik, verim yüksek",
+      "Küçük kentten büyük kente, doğudan batıya",
+      "Sivas-Divriği, Malatya-Hekimhan"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c351",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-maden-enerji",
+    "text": "Bor çıkarılan yöreler?",
+    "correct": "Balıkesir, Eskişehir, Kütahya, Bursa",
+    "wrongs": [
+      "Sulama, gübreleme, tohum ıslahı, makineleşme",
+      "Modern teknik, verim yüksek",
+      "Tarım, sanayi, ulaşım, enerji, göç önleme, eğitim"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c356",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-maden-enerji",
+    "text": "Uranyum yatakları?",
+    "correct": "Yozgat-Sorgun, Manisa-Salihli",
+    "wrongs": [
+      "Modern teknik, verim yüksek",
+      "İklim bağımlılığı fazla, verim düşük",
+      "Küçük kentten büyük kente, doğudan batıya"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c358",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-maden-enerji",
+    "text": "Tükenen enerji kaynakları?",
+    "correct": "Taş kömürü, linyit, petrol, doğal gaz",
+    "wrongs": [
+      "Adıyaman, Batman, Diyarbakır, Gaziantep, Kilis, Mardin, Siirt, Şanlıurfa, Şırnak",
+      "Ordu, Giresun, Trabzon, Rize, Artvin, Gümüşhane, Bayburt, Samsun, Tokat, Çorum, Amasya",
+      "Balıkesir, Eskişehir, Kütahya, Bursa"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c366",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-maden-enerji",
+    "text": "Doğal gaz ithal edilen ülkeler?",
+    "correct": "Rusya, Azerbaycan, İran, Cezayir",
+    "wrongs": [
+      "Ekstansif, nadas, intensif, nöbetleşe",
+      "Modern teknik, verim yüksek",
+      "Küçük kentten büyük kente, doğudan batıya"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c368",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-maden-enerji",
+    "text": "Yenilenebilir enerji kaynakları?",
+    "correct": "Güneş, rüzgâr, jeotermal, hidroelektrik, biyokütle",
+    "wrongs": [
+      "Rezervi fazla, ısı gücü taş kömüründen düşük",
+      "Kastamonu-Küre, Artvin-Murgul, Rize-Çayeli",
+      "Taş kömürü, linyit, petrol, doğal gaz"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c370",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "Toplu yerleşme özellikleri?",
+    "correct": "Karasal, su sınırlı, düz arazi",
+    "wrongs": [
+      "Tarım, sanayi, ulaşım, enerji, göç önleme, eğitim",
+      "Güneş, rüzgâr, jeotermal, hidroelektrik, biyokütle",
+      "Adıyaman, Batman, Diyarbakır, Gaziantep, Kilis, Mardin, Siirt, Şanlıurfa, Şırnak"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c371",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-nufus-yerlesme",
+    "text": "Türkiye'de göçlerin özellikleri?",
+    "correct": "Küçük kentten büyük kente, doğudan batıya",
+    "wrongs": [
+      "Antalya-Akseki, Konya-Seydişehir",
+      "Sivas-Divriği, Malatya-Hekimhan",
+      "Geliri düşük, tercih edilmemesi"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c374",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-tarim-hayvancilik",
+    "text": "Ekstansif tarım özelliği?",
+    "correct": "İklim bağımlılığı fazla, verim düşük",
+    "wrongs": [
+      "Yozgat-Sorgun, Manisa-Salihli",
+      "Etnik-dini baskı, kan davası",
+      "Rezervi fazla, ısı gücü taş kömüründen düşük"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c375",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-tarim-hayvancilik",
+    "text": "İntansif tarım özelliği?",
+    "correct": "Modern teknik, verim yüksek",
+    "wrongs": [
+      "Küçük kentten büyük kente, doğudan batıya",
+      "Rezervi fazla, ısı gücü taş kömüründen düşük",
+      "İklimden etkilenmez, suni yem"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c378",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-tarim-hayvancilik",
+    "text": "Tarımı geliştirme teknikleri?",
+    "correct": "Sulama, gübreleme, tohum ıslahı, makineleşme",
+    "wrongs": [
+      "Geliri düşük, tercih edilmemesi",
+      "İklimden etkilenmez, suni yem",
+      "Doğu Anadolu, İç Anadolu, GDA"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c380",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-tarim-hayvancilik",
+    "text": "Ahır-besi hayvancılığı özelliği?",
+    "correct": "İklimden etkilenmez, suni yem",
+    "wrongs": [
+      "Etnik-dini baskı, kan davası",
+      "Sivas-Divriği, Malatya-Hekimhan",
+      "Antalya-Akseki, Konya-Seydişehir"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c381",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-tarim-hayvancilik",
+    "text": "Koyunun en çok olduğu bölgeler?",
+    "correct": "Doğu Anadolu, İç Anadolu, GDA",
+    "wrongs": [
+      "Konya, Niğde, Nevşehir, Kırıkkale, Aksaray, Karaman, Kırşehir, Yozgat",
+      "Ordu, Giresun, Trabzon, Rize, Artvin, Gümüşhane, Bayburt, Samsun, Tokat, Çorum, Amasya",
+      "Erzurum, Erzincan, Bayburt, Gümüşhane, Kars, Ağrı, Ardahan, Iğdır, Muş"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c392",
+    "file": "questions-cografya-batch3.js",
+    "topicId": "cografya-maden-enerji",
+    "text": "Linyit özelliği?",
+    "correct": "Rezervi fazla, ısı gücü taş kömüründen düşük",
+    "wrongs": [
+      "İklimden etkilenmez, suni yem",
+      "Etnik-dini baskı, kan davası",
+      "Modern teknik, verim yüksek"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c398",
+    "file": "questions-cografya-batch4.js",
+    "topicId": "cografya-maden-enerji",
+    "text": "En çok enerji üreten üç baraj?",
+    "correct": "Atatürk, Karakaya, Keban",
+    "wrongs": [
+      "Giresun, Kastamonu, Zonguldak, Muğla, Mersin, Afyon",
+      "Germencik, Sarayköy, Tuzla",
+      "Mardin, Gaziantep, Kayseri, Denizli"
+    ],
+    "issues": [
+      "geçersiz_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "c403",
+    "file": "questions-cografya-batch4.js",
+    "topicId": "cografya-maden-enerji",
+    "text": "Fay sularına bağlı jeotermal tesisler?",
+    "correct": "Germencik, Sarayköy, Tuzla",
+    "wrongs": [
+      "Atatürk, Karakaya, Keban",
+      "Mardin, Gaziantep, Kayseri, Denizli",
+      "Afyon, Kütahya, Eskişehir, Ankara, Uşak"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c407",
+    "file": "questions-cografya-batch4.js",
+    "topicId": "cografya-sanayi",
+    "text": "Kağıt fabrikalarının bulunduğu yerler?",
+    "correct": "Giresun, Kastamonu, Zonguldak, Muğla, Mersin, Afyon",
+    "wrongs": [
+      "Afyon, Kütahya, Eskişehir, Ankara, Uşak",
+      "Mardin, Gaziantep, Kayseri, Denizli",
+      "Germencik, Sarayköy, Tuzla"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c415",
+    "file": "questions-cografya-batch4.js",
+    "topicId": "cografya-ticaret-ulasim",
+    "text": "İç kesim serbest ticaret bölgeleri?",
+    "correct": "Mardin, Gaziantep, Kayseri, Denizli",
+    "wrongs": [
+      "Germencik, Sarayköy, Tuzla",
+      "Atatürk, Karakaya, Keban",
+      "Giresun, Kastamonu, Zonguldak, Muğla, Mersin, Afyon"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "c441",
+    "file": "questions-cografya-batch4.js",
+    "topicId": "cografya-ticaret-ulasim",
+    "text": "Açıklığı en uzun ikinci köprü?",
+    "correct": "Osman Gazi Köprüsü",
+    "wrongs": [
+      "Yavuz Sultan Selim Köprüsü"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "c442",
+    "file": "questions-cografya-batch4.js",
+    "topicId": "cografya-ticaret-ulasim",
+    "text": "Demir yollu en geniş asma köprü?",
+    "correct": "Yavuz Sultan Selim Köprüsü",
+    "wrongs": [
+      "Osman Gazi Köprüsü"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "c462",
+    "file": "questions-cografya-batch4.js",
+    "topicId": "cografya-ticaret-ulasim",
+    "text": "Frigya Kültür ve Termal Turizm Bölgesi illeri?",
+    "correct": "Afyon, Kütahya, Eskişehir, Ankara, Uşak",
+    "wrongs": [
+      "Giresun, Kastamonu, Zonguldak, Muğla, Mersin, Afyon",
+      "Germencik, Sarayköy, Tuzla",
+      "Atatürk, Karakaya, Keban"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "v1",
+    "file": "questions-vatandaslik-batch1.js",
+    "topicId": "vatandaslik-sosyal-kurallar",
+    "text": "Sosyal hayatı düzenleyen kurallar nelerdir?",
+    "correct": "Din, ahlak, görgü ve hukuk kuralları",
+    "wrongs": [
+      "Anayasa, kanun, kararname ve yönetmelikler",
+      "Kişi hakları, ödevler ve siyasi kurallar",
+      "Yargı, yürütme ve yasama kuralları"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "v9",
+    "file": "questions-vatandaslik-batch1.js",
+    "topicId": "vatandaslik-mueyyide-kaynak",
+    "text": "Hukuk kurallarının özelliklerinden hangileri doğrudur?",
+    "correct": "Maddi yaptırım, soyutluk ve genellik",
+    "wrongs": [
+      "Manevi yaptırım, özel ve geçici olma",
+      "Sadece yazılı olma ve kişiye özel uygulanma",
+      "Yazısız olma, esneklik ve değişkenlik"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "v22",
+    "file": "questions-vatandaslik-batch1.js",
+    "topicId": "vatandaslik-mueyyide-kaynak",
+    "text": "İçtihadı birleştirme kararı hakkında doğru olanlar?",
+    "correct": "Resmi Gazete, bağlayıcı, Yargıtay GBK",
+    "wrongs": [
+      "Resmi Gazete'de yayınlanmaz, tavsiye niteliğindedir, Danıştay GBK",
+      "Resmi Gazete, bağlayıcı değildir, Yerel Mahkeme kararıdır",
+      "Resmi Gazete, sadece Danıştay'ı bağlar, Yargıtay GBK"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "v25",
+    "file": "questions-vatandaslik-batch1.js",
+    "topicId": "vatandaslik-mueyyide-kaynak",
+    "text": "Genelge-Yönetmelik-Kararname-Anayasa sıralaması (alttan üste)?",
+    "correct": "Genelge, yönetmelik, kararname, anayasa",
+    "wrongs": [
+      "Yönetmelik, genelge, anayasa, kararname",
+      "Kararname, anayasa, genelge, yönetmelik",
+      "Anayasa, kararname, yönetmelik, genelge"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "v27",
+    "file": "questions-vatandaslik-batch1.js",
+    "topicId": "vatandaslik-hukuk-turleri",
+    "text": "Normlar hiyerarşisi ve saf hukuk teorisinin kurucusu kimdir?",
+    "correct": "Hans Kelsen",
+    "wrongs": [
+      "Jean Bodin",
+      "John Locke",
+      "Montesquieu"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "v44",
+    "file": "questions-vatandaslik-batch1.js",
+    "topicId": "vatandaslik-hukuk-turleri",
+    "text": "Karma hukuk dallarından hangileridir?",
+    "correct": "Hava, banka ve iş hukuku",
+    "wrongs": [
+      "Ceza, anayasa ve idare hukuku",
+      "Medeni, ticaret ve borçlar hukuku",
+      "Devletler genel ve ceza hukuku"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "v70",
+    "file": "questions-vatandaslik-batch1.js",
+    "topicId": "vatandaslik-vergi-borclar",
+    "text": "Borç ilişkisinin tarafları?",
+    "correct": "Alacaklı, borçlu ve edim",
+    "wrongs": [
+      "Alıcı, satıcı ve sözleşme",
+      "Davacı, davalı ve mahkeme",
+      "Mülk sahibi, kiracı ve kira"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "v81",
+    "file": "questions-vatandaslik-batch1.js",
+    "topicId": "vatandaslik-mulkiyet",
+    "text": "Medeni hukukun ana dalları nelerdir?",
+    "correct": "Kişiler, aile, miras ve eşya hukuku",
+    "wrongs": [
+      "Anayasa, idare, ceza ve vergi hukuku",
+      "Borçlar, ticaret ve devletler özel hukuku",
+      "Tazminat, cebri icra, iptal ve ceza hukuku"
+    ],
+    "issues": [
+      "geçersiz_şık"
+    ]
+  },
+  {
+    "id": "v113",
+    "file": "questions-vatandaslik-batch2.js",
+    "topicId": "vatandaslik-kisi-hukuku-1",
+    "text": "Ayırt etme yeteneğinin yoksunluğu sebepleri hangileridir?",
+    "correct": "Yaş küçüklüğü, akıl zayıflığı ve sarhoşluk",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v119",
+    "file": "questions-vatandaslik-batch2.js",
+    "topicId": "vatandaslik-kisi-hukuku-2",
+    "text": "Rızası dışında kısıtlanma sebepleri hangileridir?",
+    "correct": "Savurganlık, akıl hastalığı ve akıl zayıflığı",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v129",
+    "file": "questions-vatandaslik-batch2.js",
+    "topicId": "vatandaslik-kisi-hukuku-2",
+    "text": "Hısımlık kuruluş şekilleri nelerdir?",
+    "correct": "Kan, kayın ve evlatlıktan doğan hısımlık",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v140",
+    "file": "questions-vatandaslik-batch2.js",
+    "topicId": "vatandaslik-aile-hisilar",
+    "text": "Evlat edinme için gereken özellikler hangileridir?",
+    "correct": "30 yaş, 5 yıl evlilik ve 18 yaş farkı",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v147",
+    "file": "questions-vatandaslik-batch2.js",
+    "topicId": "vatandaslik-miras-ticaret",
+    "text": "Yasal mirasçılar kimlerdir?",
+    "correct": "Kan hısımları, sağ kalan eş, evlatlık ve devlet",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v163",
+    "file": "questions-vatandaslik-batch2.js",
+    "topicId": "vatandaslik-haklar-fiil",
+    "text": "Devredilemeyen malvarlığı hakları hangileridir?",
+    "correct": "İntifa, oturma ve nafaka hakkı",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v183",
+    "file": "questions-vatandaslik-batch2.js",
+    "topicId": "vatandaslik-anayasa-giris",
+    "text": "Devleti oluşturan unsurlar nelerdir?",
+    "correct": "Millet, ülke ve egemenlik",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v184",
+    "file": "questions-vatandaslik-batch2.js",
+    "topicId": "vatandaslik-anayasa-giris",
+    "text": "Egemenliğin kaynağına göre devlet şekilleri nelerdir?",
+    "correct": "Monarşi, oligarşi, teokrasi ve cumhuriyet",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v224",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-turk-anayasa-1",
+    "text": "Yöneticilerin hukuk kurallarına bağlı olmadığı devlet?",
+    "correct": "Polis devleti",
+    "wrongs": [
+      "Jandarma devleti",
+      "Devletin dini İslam'dır"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v225",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-turk-anayasa-1",
+    "text": "Ekonomiye müdahale etmeyen, asgari devlet anlayışı?",
+    "correct": "Jandarma devleti",
+    "wrongs": [
+      "Devletin dini İslam'dır",
+      "Polis devleti"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v233",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-turk-anayasa-1",
+    "text": "1909 Kanunuesasi değişiklikleri hakkında doğru olanlar?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v242",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-turk-anayasa-1",
+    "text": "1928'de anayasadan çıkarılan dini ibare?",
+    "correct": "Devletin dini İslam'dır",
+    "wrongs": [
+      "Jandarma devleti",
+      "Polis devleti"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v251",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-turk-anayasa-2",
+    "text": "1961 Anayasası hakkında doğru olanlar hangileridir?",
+    "correct": "I, II ve IV",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v256",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-turk-anayasa-2",
+    "text": "1961 Anayasası ile ilgili doğru bilgiler hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v267",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-1982-genel",
+    "text": "1982 ile ilk kez düzenlenen kurumlar hangileridir?",
+    "correct": "DDK, Cumhurbaşkanlığı kararnamesi ve YÖK",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v272",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-1982-ilkeler",
+    "text": "Hukuk devleti ilkesinin gerekleri hangileridir?",
+    "correct": "İdari sorumluluk, kanuni hâkim ve kuvvetler ayrılığı",
+    "wrongs": [
+      "Jandarma Genel Komutanı",
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v275",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-1982-ilkeler",
+    "text": "Sosyal devletin amaçları hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v279",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-1982-ilkeler",
+    "text": "Laik devlet ilkesiyle bağdaşan bilgiler hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v281",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-1982-ilkeler",
+    "text": "Demokratik devlet unsurları hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v283",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-1982-ilkeler",
+    "text": "1982 Anayasası seçim ilkeleri hangileridir?",
+    "correct": "Eşit oy, gizli oy ve seçim serbestliği",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v295",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-temel-haklar-1",
+    "text": "Sert çekirdek haklar hangileridir?",
+    "correct": "I, II, III, IV ve V",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v302",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-temel-haklar-1",
+    "text": "Kanuni hâkim güvencesi hangi ilkenin gereğidir?",
+    "correct": "Kanuni hâkim güvencesi",
+    "wrongs": [
+      "Hans Kelsen",
+      "Jandarma Genel Komutanı"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v313",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-temel-haklar-2",
+    "text": "Siyasi hak ve ödevler hangileridir?",
+    "correct": "Vatandaşlık, vatan hizmeti ve vergi ödevi",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v325",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-temel-haklar-2",
+    "text": "Siyasi parti yasakları hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v328",
+    "file": "questions-vatandaslik-batch3.js",
+    "topicId": "vatandaslik-temel-haklar-2",
+    "text": "Parti kapatma davasını kim açabilir?",
+    "correct": "Yargıtay Cumhuriyet Başsavcısı",
+    "wrongs": [
+      "Hans Kelsen",
+      "Jandarma Genel Komutanı",
+      "Kanuni hâkim güvencesi"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v347",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-secmen",
+    "text": "Milletvekili seçilmeye engel suçlar hangileridir?",
+    "correct": "Hırsızlık, zimmet ve dolandırıcılık",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v348",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-secmen",
+    "text": "Milletvekili seçilme şartları hangileridir?",
+    "correct": "İlkokul, 18 yaş ve askerlikle ilişiği olmama",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v350",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-secmen",
+    "text": "Seçilemezse görevine dönemeyecek olanlar kimlerdir?",
+    "correct": "Hâkim-savcı, yüksek yargı ve silahlı kuvvet mensupları",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v352",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-secmen",
+    "text": "Affa uğramış olsa bile seçilmeye engel suçlar hangileridir?",
+    "correct": "Rüşvet, hırsızlık, dolandırıcılık ve irtikap",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v363",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-secmen",
+    "text": "Ara seçimle ilgili yanlış ifade hangisidir?",
+    "correct": "Yalnız II (6 ay kala yapılamaz değil, 1 yıl)",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v378",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-secmen",
+    "text": "YSK görevleri hangileridir?",
+    "correct": "İtiraz inceleme, tutanak kabul ve seçim yönetimi",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v391",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-milletvekili",
+    "text": "TBMM kararıyla milletvekilliğinin sona ermesi hâlleri?",
+    "correct": "İstifa, uyumsuz görevde ısrar ve devamsızlık",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v397",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-milletvekili",
+    "text": "Dokunulmazlık kaldırılması milletvekilliğini sona erdirir mi?",
+    "correct": "Hayır, sona erdirmez",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v405",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-milletvekili",
+    "text": "TBMM görevleri ile ilgili doğru olanlar hangileridir?",
+    "correct": "I, II, III, IV ve V",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v437",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-kanun",
+    "text": "TBMM onayı zorunlu olmayan antlaşma alanları hangileridir?",
+    "correct": "Ticari, ekonomik ve teknik işler",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v454",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-meclis",
+    "text": "CB yardımcısının CB'ye vekalet ettiği hâller hangileridir?",
+    "correct": "Hastalık, ölüm ve istifa",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v462",
+    "file": "questions-vatandaslik-batch4.js",
+    "topicId": "vatandaslik-yasama-meclis",
+    "text": "Sadece kararla yapılan TBMM işlemleri hangileridir?",
+    "correct": "Savaş ilanı, iç tüzük değişikliği ve seçim yenileme",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v501",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yurutme-secim",
+    "text": "İkinci tur adayı düşerse yerine kim geçer?",
+    "correct": "İlk turda en çok oy alan üçüncü aday",
+    "wrongs": [
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen",
+      "Jandarma Genel Komutanı"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v506",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yurutme-secim",
+    "text": "Cumhurbaşkanının görevleri ile ilgili doğru olanlar hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v507",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yurutme-secim",
+    "text": "CB'nin görev ve yetkilerinden hangileri doğrudur?",
+    "correct": "Antlaşma onayı, başkomutanlık ve temsilcilik",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v508",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yurutme-secim",
+    "text": "CB atama görevleri hangileridir?",
+    "correct": "Yardımcı, bakan, Genelkurmay başkanı ve DDK",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v547",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yurutme-gorevler",
+    "text": "Savaşta başkomutanlık görevini kim namına yürütür?",
+    "correct": "Genelkurmay başkanı, Cumhurbaşkanı namına",
+    "wrongs": [
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen",
+      "İdari sorumluluk, kanuni hâkim ve kuvvetler ayrılığı"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v548",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yurutme-gorevler",
+    "text": "Yönetmelik çıkarma yetkisi kimlerdedir?",
+    "correct": "Cumhurbaşkanı, bakanlar ve kamu tüzel kişileri",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v565",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yurutme-kararname",
+    "text": "OHAL ile ilgili doğru ifadeler hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v567",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yurutme-kararname",
+    "text": "OHAL'in sonuçları nelerdir?",
+    "correct": "Hak sınırlama, yükümlülük ve KHK çıkarma",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v570",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yurutme-kararname",
+    "text": "MGK gündemi kimlerin önerisiyle CB tarafından düzenlenir?",
+    "correct": "CB yardımcısı ve Genelkurmay başkanı",
+    "wrongs": [
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen",
+      "Jandarma Genel Komutanı"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v572",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yurutme-kararname",
+    "text": "MGK üyeliğinden çıkarılan kimdir?",
+    "correct": "Jandarma Genel Komutanı",
+    "wrongs": [
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v581",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yargi",
+    "text": "Yargı yetkisini Türk milleti adına kim kullanır?",
+    "correct": "Bağımsız ve tarafsız mahkemeler",
+    "wrongs": [
+      "Jandarma Genel Komutanı",
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v601",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yargi",
+    "text": "Olağan kanun yolları nelerdir?",
+    "correct": "İtiraz, istinaf ve temyiz",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v603",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-yargi",
+    "text": "Alternatif uyuşmazlık çözüm yöntemleri nelerdir?",
+    "correct": "Tahkim, arabuluculuk ve uzlaştırma",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v614",
+    "file": "questions-vatandaslik-batch5.js",
+    "topicId": "vatandaslik-anayasa-mahkemesi",
+    "text": "Yargıtay ve Danıştay adaylarını kim belirler?",
+    "correct": "İlgili Yüksek Mahkeme Kurulu",
+    "wrongs": [
+      "Jandarma Genel Komutanı",
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v629",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-aym-denetim",
+    "text": "AYM Genel Kurulunun baktığı davalar hangileridir?",
+    "correct": "Parti davaları, iptal-itiraz ve Yüce Divan",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v635",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-aym-denetim",
+    "text": "AYM görevleri hangileridir?",
+    "correct": "Parti davaları, bireysel başvuru ve Yüce Divan",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v637",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-aym-denetim",
+    "text": "2017 ile Yüce Divan'dan çıkarılan kimdir?",
+    "correct": "Jandarma Genel Komutanı",
+    "wrongs": [
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v638",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-aym-denetim",
+    "text": "Yüce Divan'da savcılık görevini kim yürütür?",
+    "correct": "Yargıtay Cumhuriyet başsavcısı veya vekili",
+    "wrongs": [
+      "Jandarma Genel Komutanı",
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v643",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-aym-denetim",
+    "text": "Yüce Divan kararları ile ilgili doğru olanlar hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v644",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-aym-denetim",
+    "text": "Anayasa değişikliği şekil iptali davasını kim açabilir?",
+    "correct": "Cumhurbaşkanı ve TBMM üye tam sayısının 1/5'i",
+    "wrongs": [
+      "Jandarma Genel Komutanı",
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v646",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-aym-denetim",
+    "text": "Kanun şekil iptali davasını kim açabilir?",
+    "correct": "Cumhurbaşkanı ve TBMM üye tam sayısının 1/5'i",
+    "wrongs": [
+      "Hans Kelsen",
+      "Jandarma Genel Komutanı",
+      "Kanuni hâkim güvencesi"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v647",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-aym-denetim",
+    "text": "Kanun esas iptali davasını kim açabilir?",
+    "correct": "CB, 1/5 milletvekili ve en fazla üyeli iki parti grubu",
+    "wrongs": [
+      "Hans Kelsen",
+      "Jandarma Genel Komutanı",
+      "İdari sorumluluk, kanuni hâkim ve kuvvetler ayrılığı"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v655",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-aym-denetim",
+    "text": "AYM'nin denetleyemeyeceği parlamento kararları hangileridir?",
+    "correct": "İç Tüzük, vekillik düşürme ve dokunulmazlık kaldırma",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v657",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-aym-denetim",
+    "text": "AYM kararları ile ilgili doğru özellikler hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v665",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-yuksek-yargi",
+    "text": "Danıştay üyelerini kim seçer?",
+    "correct": "1/4 CB, 3/4 HSK",
+    "wrongs": [
+      "İdari sorumluluk, kanuni hâkim ve kuvvetler ayrılığı",
+      "Hans Kelsen",
+      "Kanuni hâkim güvencesi"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v694",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-idare-temel",
+    "text": "İdare hukuku özellikleri hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v710",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-idare-temel",
+    "text": "Kamulaştırma bedelinin taksitle ödenebildiği haller?",
+    "correct": "Tarım reformu, büyük projeler, kıyı koruma ve turizm",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v723",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-idare-yapi",
+    "text": "Valinin görevleri hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v732",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-idare-yapi",
+    "text": "Merkezden yönetim başkent teşkilatı kimlerden oluşur?",
+    "correct": "Cumhurbaşkanı, yardımcı ve bakanlar",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v737",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-idare-yapi",
+    "text": "Belediye organları nelerdir?",
+    "correct": "Belediye başkanı, meclis ve encümen",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v761",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-idare-yapi",
+    "text": "30 büyükşehirde bulunmayan idari birimler?",
+    "correct": "İl özel idaresi, belde belediyesi ve köy",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v767",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-idare-yerel",
+    "text": "Köy kurulması için nüfus aralığı?",
+    "correct": "150'den fazla, 2000'den az",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v772",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-idare-yerel",
+    "text": "Köy idaresinin bölümleri nelerdir?",
+    "correct": "Muhtar, ihtiyar heyeti ve köy derneği",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v773",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-idare-yerel",
+    "text": "Muhtarın görevleri hangileridir?",
+    "correct": "I, II ve III",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v778",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-idare-yerel",
+    "text": "İdari işlemin unsurları nelerdir?",
+    "correct": "Yetki, şekil, amaç, sebep ve konu",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v794",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-temel",
+    "text": "Devlet memurluğunun anayasal ilkeleri nelerdir?",
+    "correct": "Serbestlik, eşitlik ve liyakat",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v795",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-temel",
+    "text": "657 DMK'ya göre memur kimdir?",
+    "correct": "Genel idare esaslarına göre kamu hizmeti görevlisi",
+    "wrongs": [
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen",
+      "Jandarma Genel Komutanı"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v797",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-temel",
+    "text": "657 DMK temel ilkeleri nelerdir?",
+    "correct": "Sınıflandırma, kariyer ve liyakat",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v812",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-temel",
+    "text": "Mülki İdare Amirliği Sınıfı kimleri kapsar?",
+    "correct": "Vali, kaymakam ve maiyetleri",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v822",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-temel",
+    "text": "Adaylık süresi aralığı?",
+    "correct": "1 yıldan az, 2 yıldan çok olamaz",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v823",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-haklar",
+    "text": "Adaylıkta ilişik kesme teklif ve onay mercii?",
+    "correct": "Disiplin amiri teklifi, atamaya yetkili amir onayı",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v827",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-haklar",
+    "text": "İstisnai memurlarda uygulanmayan hükümler?",
+    "correct": "Atanma, sınav, kademe ilerlemesi ve derece yükselmesi",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v828",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-haklar",
+    "text": "Yer değiştirmeyle atananlar işe başlama süresi?",
+    "correct": "Tebliğden 15 gün, yol süresi dahil",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v834",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-haklar",
+    "text": "Yurt dışı aylıksız izin süreleri?",
+    "correct": "Resmi kurumda 10 yıl, uluslararası kuruluşta 21 yıl",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v854",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-haklar",
+    "text": "Süt izni ilk ve ikinci altı ay?",
+    "correct": "3 saat ve 1,5 saat",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık",
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v866",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-disiplin",
+    "text": "Kademe ilerlemesinin durdurulması süresi?",
+    "correct": "En az 1, en çok 3 yıl",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v875",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-disiplin",
+    "text": "Kademe durdurmayı kim verir?",
+    "correct": "Disiplin kurulu kararı sonrası atamaya yetkili amir",
+    "wrongs": [
+      "Jandarma Genel Komutanı",
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v876",
+    "file": "questions-vatandaslik-batch6.js",
+    "topicId": "vatandaslik-memur-disiplin",
+    "text": "Memurluktan çıkarmayı kim verir?",
+    "correct": "Yüksek disiplin kurulu kararı",
+    "wrongs": [
+      "Kanuni hâkim güvencesi",
+      "Hans Kelsen",
+      "Jandarma Genel Komutanı"
+    ],
+    "issues": [
+      "uzunluk_uyumsuz"
+    ]
+  },
+  {
+    "id": "v891",
+    "file": "questions-vatandaslik-batch7.js",
+    "topicId": "vatandaslik-memur-disiplin",
+    "text": "Disiplin itirazında süre ve kurul karar süresi?",
+    "correct": "7 gün itiraz, 30 gün karar",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  },
+  {
+    "id": "v893",
+    "file": "questions-vatandaslik-batch7.js",
+    "topicId": "vatandaslik-memur-disiplin",
+    "text": "Görevden uzaklaştırmaya yetkililer kimlerdir?",
+    "correct": "Atamaya yetkili amir, müfettiş, vali ve kaymakam",
+    "wrongs": [
+      "Kanun/CBK ile kurulan ayrıcalıklı kuruluşlar"
+    ],
+    "issues": [
+      "eksik_şık"
+    ]
+  }
+]

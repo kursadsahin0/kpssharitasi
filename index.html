@@ -9,7 +9,7 @@
     <meta name="msapplication-tap-highlight" content="no" />
     <meta
       name="viewport"
-      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (ctx.mode.cordova || ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"
     />
 
     <link rel="icon" type="image/png" sizes="128x128" href="icons/favicon-128x128.png" />
@@ -19,6 +19,59 @@
     <link rel="icon" type="image/ico" href="favicon.ico" />
   </head>
   <body>
+    <div id="kpss-splash" style="
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #1A1025;
+      transition: opacity 0.4s ease;
+    ">
+      <svg width="120" height="120" viewBox="0 0 288 288" fill="none">
+        <path d="M144 80L60 120L144 160L228 120Z" fill="#9B7FD4"/>
+        <path d="M144 160L60 120L60 160L144 200Z" fill="#7B5FB8"/>
+        <path d="M144 160L228 120L228 160L144 200Z" fill="#B89EE8"/>
+        <rect x="201" y="118" width="6" height="54" fill="#FFD54F"/>
+        <circle cx="204" cy="172" r="8" fill="#FFD54F"/>
+      </svg>
+      <div style="
+        margin-top: 24px;
+        font-family: 'DM Sans', system-ui, sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 2px;
+      ">KPSS</div>
+      <div style="
+        margin-top: 8px;
+        font-family: 'DM Sans', system-ui, sans-serif;
+        font-size: 14px;
+        color: rgba(245,243,248,0.6);
+      ">Yükleniyor...</div>
+    </div>
     <!-- quasar:entry-point -->
+    <script>
+      ;(function(){
+        var minDisplay = 2000;
+        var start = Date.now();
+        var check = setInterval(function(){
+          if (document.querySelector('#q-app > *')) {
+            clearInterval(check);
+            var elapsed = Date.now() - start;
+            var remaining = Math.max(0, minDisplay - elapsed);
+            setTimeout(function(){
+              var splash = document.getElementById('kpss-splash');
+              if (splash) {
+                splash.style.opacity = '0';
+                setTimeout(function(){ splash.remove(); }, 400);
+              }
+            }, remaining);
+          }
+        }, 50);
+      })();
+    </script>
   </body>
 </html>
