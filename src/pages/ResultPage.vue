@@ -19,8 +19,8 @@
       </div>
       <p class="text-subtitle1 text-amber q-mb-xl">{{ starsLabelText }}</p>
 
-      <div class="q-mb-lg">
-        <AdSenseBlock ad-slot="3456789012" />
+      <div v-if="resultAdSlot" class="q-mb-lg">
+        <AdSenseBlock :ad-slot="resultAdSlot" />
       </div>
 
       <q-btn
@@ -47,12 +47,14 @@
 import { computed, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import AdSenseBlock from 'src/components/ads/AdSenseBlock.vue'
+import { ADSENSE_SLOTS } from 'src/config/adsense'
 import { scoreToStars, starsLabel } from 'src/utils/stars'
 import { useProgressStore } from 'src/stores/progress'
 
 const route = useRoute()
 const router = useRouter()
 const progress = useProgressStore()
+const resultAdSlot = ADSENSE_SLOTS.result
 
 const correct = computed(() => Number(route.query.correct) || 0)
 const total = computed(() => Number(route.query.total) || 1)

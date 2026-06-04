@@ -29,12 +29,20 @@
     </q-page-container>
 
     <q-footer class="kpss-footer">
+      <CookieConsentBanner />
       <div class="kpss-footer__inner">
-        <router-link :to="{ name: 'about' }" class="kpss-footer__link">About</router-link>
-        <span class="kpss-footer__dot">•</span>
-        <router-link :to="{ name: 'contact' }" class="kpss-footer__link">Contact</router-link>
-        <span class="kpss-footer__dot">•</span>
-        <router-link :to="{ name: 'privacy-policy' }" class="kpss-footer__link">Privacy Policy</router-link>
+        <nav class="kpss-footer__nav">
+          <router-link :to="{ name: 'about' }" class="kpss-footer__link">Hakkında</router-link>
+          <span class="kpss-footer__dot">•</span>
+          <router-link :to="{ name: 'contact' }" class="kpss-footer__link">İletişim</router-link>
+          <span class="kpss-footer__dot">•</span>
+          <router-link :to="{ name: 'privacy-policy' }" class="kpss-footer__link">Gizlilik</router-link>
+          <span class="kpss-footer__dot">•</span>
+          <router-link :to="{ name: 'terms' }" class="kpss-footer__link">Koşullar</router-link>
+        </nav>
+        <p class="kpss-footer__copy text-caption text-grey-6">
+          © {{ year }} KPSS Haritası
+        </p>
       </div>
     </q-footer>
   </q-layout>
@@ -43,6 +51,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
+import CookieConsentBanner from 'src/components/legal/CookieConsentBanner.vue'
 import { useContentStore } from 'src/stores/content'
 import { useProgressStore } from 'src/stores/progress'
 
@@ -61,6 +70,8 @@ const headerTitle = computed(() => {
   if (route.meta?.title) return route.meta.title
   return 'KPSS Haritası'
 })
+
+const year = new Date().getFullYear()
 
 const totalStars = computed(() => {
   let stars = 0
@@ -142,12 +153,22 @@ const totalStars = computed(() => {
 }
 
 .kpss-footer__inner {
-  min-height: 44px;
+  padding: 10px 16px 12px;
+  text-align: center;
+}
+
+.kpss-footer__nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 8px;
   font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.kpss-footer__copy {
+  margin: 0;
 }
 
 .kpss-footer__link {

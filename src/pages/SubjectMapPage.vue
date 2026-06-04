@@ -19,8 +19,8 @@
       <p class="text-body1">Bu derste henüz konu yok.</p>
     </div>
 
-    <div class="map-page__ad q-px-md q-pb-md">
-      <AdSenseBlock ad-slot="2345678901" />
+    <div v-if="subjectMapAdSlot" class="map-page__ad q-px-md q-pb-md">
+      <AdSenseBlock :ad-slot="subjectMapAdSlot" />
     </div>
 
     <q-dialog v-model="detailOpen" position="bottom">
@@ -65,6 +65,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { useQuasar } from 'quasar'
 import TopicMap from 'src/components/map/TopicMap.vue'
 import AdSenseBlock from 'src/components/ads/AdSenseBlock.vue'
+import { ADSENSE_SLOTS } from 'src/config/adsense'
 import { useContentStore } from 'src/stores/content'
 import { useProgressStore } from 'src/stores/progress'
 
@@ -73,6 +74,7 @@ const router = useRouter()
 const $q = useQuasar()
 const content = useContentStore()
 const progress = useProgressStore()
+const subjectMapAdSlot = ADSENSE_SLOTS.subjectMap
 
 const subjectId = computed(() => route.params.subjectId)
 const subject = computed(() => content.getSubject(subjectId.value))

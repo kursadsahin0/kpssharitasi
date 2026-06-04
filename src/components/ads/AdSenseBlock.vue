@@ -1,9 +1,9 @@
 <template>
-  <div v-if="isConfigured" class="adsense-block">
+  <div v-if="showAd" class="adsense-block">
     <ins
       class="adsbygoogle"
       style="display: block"
-      :data-ad-client="client"
+      :data-ad-client="ADSENSE_CLIENT"
       :data-ad-slot="adSlot"
       :data-ad-format="format"
       :data-full-width-responsive="fullWidthResponsive ? 'true' : 'false'"
@@ -12,66 +12,52 @@
 </template>
 
 <script setup>
-import { computed, nextTick, onMounted, ref } from 'vue'
+import { computed, nextTick, onMounted } from 'vue'
+import { ADSENSE_CLIENT } from 'src/config/adsense'
 
 const props = defineProps({
   adSlot: { type: String, required: true },
-  client: { type: String, default: '' },
   format: { type: String, default: 'auto' },
   fullWidthResponsive: { type: Boolean, default: true },
 })
 
-const scriptLoaded = ref(false)
+const showAd = computed(() => Boolean(props.adSlot && ADSENSE_CLIENT))
 
-const client = computed(() => props.client || import.meta.env.VITE_ADSENSE_CLIENT || '')
-const adSlot = computed(() => props.adSlot)
-const isConfigured = computed(() => Boolean(client.value && adSlot.value))
+function scriptReady() {
+  return document.querySelector(
+    `script[src*="adsbygoogle.js"][src*="${ADSENSE_CLIENT}"]`,
+  )
+}
 
-function ensureAdSenseScript() {
-  if (!isConfigured.value) return
-
-  const src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client.value}`
-  const existing = document.querySelector(`script[src="${src}"]`)
-  if (existing) {
-    scriptLoaded.value = true
-    return
-  }
-
-  const script = document.createElement('script')
-  script.async = true
-  script.src = src
-  script.crossOrigin = 'anonymous'
-  script.onload = () => {
-    scriptLoaded.value = true
-  }
-  script.onerror = () => {
-    scriptLoaded.value = false
-  }
-  document.head.appendChild(script)
+function waitForScript(maxMs = 8000) {
+  return new Promise((resolve) => {
+    if (scriptReady()) {
+      resolve(true)
+      return
+    }
+    const start = Date.now()
+    const t = setInterval(() => {
+      if (scriptReady() || Date.now() - start > maxMs) {
+        clearInterval(t)
+        resolve(Boolean(scriptReady()))
+      }
+    }, 100)
+  })
 }
 
 async function renderAd() {
-  if (!isConfigured.value || !scriptLoaded.value) return
+  if (!showAd.value) return
+  await waitForScript()
   await nextTick()
   try {
     ;(window.adsbygoogle = window.adsbygoogle || []).push({})
   } catch {
-    // Ad blockers or duplicate push can throw; ignore safely.
+    // Reklam engelleyici veya çift push
   }
 }
 
-onMounted(async () => {
-  ensureAdSenseScript()
-  if (scriptLoaded.value) {
-    await renderAd()
-    return
-  }
-  const timer = setInterval(async () => {
-    if (!scriptLoaded.value) return
-    clearInterval(timer)
-    await renderAd()
-  }, 150)
-  setTimeout(() => clearInterval(timer), 5000)
+onMounted(() => {
+  renderAd()
 })
 </script>
 

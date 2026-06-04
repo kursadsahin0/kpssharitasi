@@ -5,12 +5,13 @@
         <p class="text-overline text-grey-4 q-mb-xs">Genel Kültür</p>
         <h1 class="text-h4 text-weight-bold q-my-none">KPSS Çalış</h1>
         <p class="text-body2 text-grey-4 q-mt-sm q-mb-none">
-          Konu haritasında ilerle, soruları çöz, yıldız kazan.
+          Konu haritasında ilerle, soruları çöz, yıldız kazan. Ücretsiz KPSS Genel Kültür
+          pratiği.
         </p>
       </header>
 
-      <div class="q-mb-lg">
-        <AdSenseBlock ad-slot="1234567890" />
+      <div v-if="homeAdSlot" class="q-mb-lg">
+        <AdSenseBlock :ad-slot="homeAdSlot" />
       </div>
 
       <div class="column q-gutter-md">
@@ -64,6 +65,7 @@ import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useQuasar } from 'quasar'
 import AdSenseBlock from 'src/components/ads/AdSenseBlock.vue'
+import { ADSENSE_SLOTS } from 'src/config/adsense'
 import { useContentStore } from 'src/stores/content'
 import { useProgressStore } from 'src/stores/progress'
 
@@ -71,6 +73,7 @@ const router = useRouter()
 const $q = useQuasar()
 const content = useContentStore()
 const progress = useProgressStore()
+const homeAdSlot = ADSENSE_SLOTS.home
 
 function progressFor(subjectId) {
   const topicList = content.topicsBySubject(subjectId)
