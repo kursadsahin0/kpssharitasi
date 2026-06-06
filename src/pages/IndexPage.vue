@@ -10,11 +10,7 @@
         </p>
       </header>
 
-      <div v-if="homeAdSlot" class="q-mb-lg">
-        <AdSenseBlock :ad-slot="homeAdSlot" />
-      </div>
-
-      <div class="column q-gutter-md">
+      <div class="column q-gutter-md q-mb-xl">
         <q-card
           v-for="subject in content.subjects"
           :key="subject.id"
@@ -53,7 +49,21 @@
         </q-card>
       </div>
 
-      <p v-if="lastTopicLabel" class="text-caption text-grey-5 q-mt-xl text-center">
+      <article class="index-page__article">
+        <h2 class="text-h6 text-weight-bold q-mb-md">{{ homeGuide.title }}</h2>
+        <p v-for="(para, i) in homeGuide.paragraphs" :key="i" class="text-body2 text-grey-4 q-mb-md">
+          {{ para }}
+        </p>
+        <p class="text-body2 q-mb-none">
+          <router-link :to="{ name: 'faq' }" class="index-page__link">Sık sorulan sorular</router-link>
+          ·
+          <router-link :to="{ name: 'about' }" class="index-page__link">Hakkında</router-link>
+        </p>
+      </article>
+
+      <AdSenseBlock v-if="contentAdSlot" :ad-slot="contentAdSlot" />
+
+      <p v-if="lastTopicLabel" class="text-caption text-grey-5 q-mt-lg text-center">
         Son çalışma: {{ lastTopicLabel }}
       </p>
     </div>
@@ -65,6 +75,7 @@ import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useQuasar } from 'quasar'
 import AdSenseBlock from 'src/components/ads/AdSenseBlock.vue'
+import { kpssHomeGuide } from 'src/assets/data/subjectGuides'
 import { ADSENSE_SLOTS } from 'src/config/adsense'
 import { useContentStore } from 'src/stores/content'
 import { useProgressStore } from 'src/stores/progress'
@@ -73,7 +84,8 @@ const router = useRouter()
 const $q = useQuasar()
 const content = useContentStore()
 const progress = useProgressStore()
-const homeAdSlot = ADSENSE_SLOTS.home
+const contentAdSlot = ADSENSE_SLOTS.content
+const homeGuide = kpssHomeGuide
 
 function progressFor(subjectId) {
   const topicList = content.topicsBySubject(subjectId)
@@ -105,6 +117,20 @@ function openSubject(subject) {
 .index-page__inner {
   max-width: 480px;
   margin: 0 auto;
+}
+
+.index-page__article {
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.index-page__link {
+  color: rgba(255, 213, 79, 0.9);
+  text-decoration: none;
+}
+
+.index-page__link:hover {
+  text-decoration: underline;
 }
 
 .subject-card {

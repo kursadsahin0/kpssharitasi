@@ -11,6 +11,7 @@ export function hasCookieConsent() {
 export function acceptCookieConsent() {
   try {
     localStorage.setItem(STORAGE_KEY, 'accepted')
+    window.dispatchEvent(new Event('kpss-cookie-consent'))
   } catch {
     // private mode
   }

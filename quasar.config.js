@@ -11,7 +11,7 @@ export default defineConfig((/* ctx */) => {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli-vite/boot-files
-    boot: ['pinia', 'document-title'],
+    boot: ['pinia', 'document-title', 'meta-robots'],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#css
     css: ['app.css'],
@@ -37,7 +37,7 @@ export default defineConfig((/* ctx */) => {
         node: 'node22',
       },
 
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      vueRouterMode: 'history', // available values: 'hash', 'history'
       // vueRouterBase,
       // vueDevtools,
       // vueOptionsAPI: false,

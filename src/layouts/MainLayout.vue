@@ -34,6 +34,8 @@
         <nav class="kpss-footer__nav">
           <router-link :to="{ name: 'about' }" class="kpss-footer__link">Hakkında</router-link>
           <span class="kpss-footer__dot">•</span>
+          <router-link :to="{ name: 'faq' }" class="kpss-footer__link">SSS</router-link>
+          <span class="kpss-footer__dot">•</span>
           <router-link :to="{ name: 'contact' }" class="kpss-footer__link">İletişim</router-link>
           <span class="kpss-footer__dot">•</span>
           <router-link :to="{ name: 'privacy-policy' }" class="kpss-footer__link">Gizlilik</router-link>

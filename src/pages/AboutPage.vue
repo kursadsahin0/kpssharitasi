@@ -24,9 +24,15 @@
       <router-link :to="{ name: 'contact' }">İletişim</router-link>
       sayfasını kullanabilirsiniz.
     </p>
+
+    <AdSenseBlock v-if="contentAdSlot" :ad-slot="contentAdSlot" />
   </LegalPageShell>
 </template>
 
 <script setup>
+import AdSenseBlock from 'src/components/ads/AdSenseBlock.vue'
 import LegalPageShell from 'src/components/legal/LegalPageShell.vue'
+import { ADSENSE_SLOTS } from 'src/config/adsense'
+
+const contentAdSlot = ADSENSE_SLOTS.content
 </script>

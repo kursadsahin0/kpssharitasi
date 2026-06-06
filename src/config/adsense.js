@@ -6,9 +6,7 @@ const slot = (key) => {
   return typeof v === 'string' ? v.trim() : ''
 }
 
-/** Reklam birimi oluşturduktan sonra .env ile slot id girin; boşsa blok gösterilmez. */
+/** Yalnızca içerik sayfalarında kullanın. Slot yoksa reklam gösterilmez. */
 export const ADSENSE_SLOTS = {
-  home: slot('VITE_ADSENSE_SLOT_HOME'),
-  subjectMap: slot('VITE_ADSENSE_SLOT_SUBJECT_MAP'),
-  result: slot('VITE_ADSENSE_SLOT_RESULT'),
+  content: slot('VITE_ADSENSE_SLOT_CONTENT') || slot('VITE_ADSENSE_SLOT_HOME'),
 }

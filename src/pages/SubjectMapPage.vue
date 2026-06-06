@@ -5,22 +5,31 @@
       <q-btn flat color="amber" label="Ana sayfa" :to="{ name: 'home' }" />
     </div>
 
-    <TopicMap
-      v-else-if="topics.length"
-      :topics="topics"
-      :theme="subject.theme"
-      :is-unlocked="isUnlocked"
-      :get-progress="getProgress"
-      :active-topic-id="activeTopicId"
-      @select-topic="onSelectTopic"
-    />
+    <div v-else-if="topics.length" class="map-page__content">
+      <div v-if="guideIntro" class="map-page__intro q-pa-md">
+        <p class="text-body2 text-grey-4 q-mb-sm">{{ guideIntro }}</p>
+        <q-btn
+          flat
+          dense
+          no-caps
+          color="amber"
+          label="Çalışma rehberini oku"
+          :to="{ name: 'subject-guide', params: { subjectId } }"
+        />
+      </div>
+
+      <TopicMap
+        :topics="topics"
+        :theme="subject.theme"
+        :is-unlocked="isUnlocked"
+        :get-progress="getProgress"
+        :active-topic-id="activeTopicId"
+        @select-topic="onSelectTopic"
+      />
+    </div>
 
     <div v-else class="map-page__message q-pa-lg text-center">
       <p class="text-body1">Bu derste henüz konu yok.</p>
-    </div>
-
-    <div v-if="subjectMapAdSlot" class="map-page__ad q-px-md q-pb-md">
-      <AdSenseBlock :ad-slot="subjectMapAdSlot" />
     </div>
 
     <q-dialog v-model="detailOpen" position="bottom">
@@ -64,8 +73,7 @@ import { computed, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useQuasar } from 'quasar'
 import TopicMap from 'src/components/map/TopicMap.vue'
-import AdSenseBlock from 'src/components/ads/AdSenseBlock.vue'
-import { ADSENSE_SLOTS } from 'src/config/adsense'
+import { subjectGuides } from 'src/assets/data/subjectGuides'
 import { useContentStore } from 'src/stores/content'
 import { useProgressStore } from 'src/stores/progress'
 
@@ -74,11 +82,11 @@ const router = useRouter()
 const $q = useQuasar()
 const content = useContentStore()
 const progress = useProgressStore()
-const subjectMapAdSlot = ADSENSE_SLOTS.subjectMap
 
 const subjectId = computed(() => route.params.subjectId)
 const subject = computed(() => content.getSubject(subjectId.value))
 const topics = computed(() => content.topicsBySubject(subjectId.value))
+const guideIntro = computed(() => subjectGuides[subjectId.value]?.intro ?? null)
 const topicIds = computed(() => topics.value.map((t) => t.id))
 
 function isUnlocked(topicId) {
@@ -138,11 +146,10 @@ function startQuiz() {
   color: var(--kpss-text);
 }
 
-.map-page__ad {
-  margin-top: auto;
+.map-page__intro {
   max-width: 560px;
-  width: 100%;
-  align-self: center;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .topic-detail {

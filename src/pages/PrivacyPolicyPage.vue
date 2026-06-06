@@ -29,7 +29,12 @@
 
     <h2>3. Google AdSense</h2>
     <p>
-      Sitemizde Google AdSense reklamları gösterilebilir. Google, reklamları kişiselleştirmek ve
+      Sitemizde Google AdSense reklamları yalnızca yeterli metin içeriği bulunan sayfalarda
+      (ana sayfa, rehber, SSS, hakkında vb.) gösterilir. Quiz, sonuç ve konu haritası gibi
+      etkileşimli veya yönlendirme amaçlı ekranlarda reklam gösterilmez.
+    </p>
+    <p>
+      Google, reklamları kişiselleştirmek ve performansı ölçmek için çerez ve benzeri
       performansı ölçmek için çerez ve benzeri tanımlayıcılar kullanabilir. Ayrıntılar için:
       <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer"
         >Google Reklam Teknolojileri</a

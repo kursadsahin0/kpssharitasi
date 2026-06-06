@@ -15,6 +15,12 @@ const routes = [
         meta: { title: 'Konu Haritası' },
       },
       {
+        path: 'rehber/:subjectId',
+        name: 'subject-guide',
+        component: () => import('pages/SubjectGuidePage.vue'),
+        meta: { title: 'Çalışma Rehberi' },
+      },
+      {
         path: 'ders/:subjectId/konu/:topicId/quiz',
         name: 'quiz',
         component: () => import('pages/QuizPage.vue'),
@@ -31,6 +37,12 @@ const routes = [
         name: 'about',
         component: () => import('pages/AboutPage.vue'),
         meta: { title: 'Hakkında' },
+      },
+      {
+        path: 'faq',
+        name: 'faq',
+        component: () => import('pages/FaqPage.vue'),
+        meta: { title: 'SSS' },
       },
       {
         path: 'contact',

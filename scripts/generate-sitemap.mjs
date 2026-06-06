@@ -11,39 +11,39 @@ const base = rawBase.replace(/\/$/, '')
 
 if (!base) {
   console.warn(
-    '[sitemap] VITE_SITE_URL tanımlı değil. Netlify’de örn. https://siteniz.netlify.app ekleyin.',
+    '[sitemap] VITE_SITE_URL tanımlı değil. Netlify’de örn. https://kpssharitasi.netlify.app ekleyin.',
   )
   process.exit(1)
 }
 
-/** Hash router: Google için tam URL (# dahil) */
-function hashUrl(path = '') {
-  const fragment = path ? `#${path.startsWith('/') ? path : `/${path}`}` : '#/'
-  return `${base}/${fragment}`
+function pageUrl(path = '/') {
+  const normalized = path.startsWith('/') ? path : `/${path}`
+  return `${base}${normalized === '/' ? '' : normalized}`
 }
 
 const staticPaths = [
-  { path: '', changefreq: 'weekly', priority: '1.0' },
-  { path: '/about', changefreq: 'monthly', priority: '0.6' },
+  { path: '/', changefreq: 'weekly', priority: '1.0' },
+  { path: '/about', changefreq: 'monthly', priority: '0.7' },
+  { path: '/faq', changefreq: 'monthly', priority: '0.7' },
   { path: '/contact', changefreq: 'monthly', priority: '0.6' },
   { path: '/privacy-policy', changefreq: 'monthly', priority: '0.5' },
   { path: '/terms', changefreq: 'monthly', priority: '0.5' },
 ]
 
-const subjectPaths = subjects
+const guidePaths = subjects
   .filter((s) => s.available)
   .map((s) => ({
-    path: `/ders/${s.id}`,
-    changefreq: 'weekly',
+    path: `/rehber/${s.id}`,
+    changefreq: 'monthly',
     priority: '0.8',
   }))
 
 const lastmod = new Date().toISOString().slice(0, 10)
 
-const urls = [...staticPaths, ...subjectPaths]
+const urls = [...staticPaths, ...guidePaths]
   .map(
     ({ path, changefreq, priority }) => `  <url>
-    <loc>${escapeXml(hashUrl(path))}</loc>
+    <loc>${escapeXml(pageUrl(path))}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
@@ -66,7 +66,7 @@ Sitemap: ${base}/sitemap.xml
 writeFileSync(join(publicDir, 'sitemap.xml'), sitemap, 'utf8')
 writeFileSync(join(publicDir, 'robots.txt'), robots, 'utf8')
 
-console.log(`[sitemap] ${staticPaths.length + subjectPaths.length} URL → public/sitemap.xml (${base})`)
+console.log(`[sitemap] ${staticPaths.length + guidePaths.length} URL → public/sitemap.xml (${base})`)
 
 function escapeXml(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
