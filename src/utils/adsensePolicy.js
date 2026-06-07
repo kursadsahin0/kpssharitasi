@@ -2,7 +2,7 @@ import { ADSENSE_CLIENT, ADSENSE_LIVE } from 'src/config/adsense'
 import { hasCookieConsent } from 'src/utils/cookieConsent'
 
 export const ADSENSE_ALLOWED_ROUTE_NAMES = new Set([
-  'home',
+  'study-guide',
   'about',
   'faq',
   'subject-guide',

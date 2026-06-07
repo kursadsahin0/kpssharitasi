@@ -33,6 +33,12 @@ const routes = [
         meta: { title: 'Sonuç' },
       },
       {
+        path: 'nasil-calisilir',
+        name: 'study-guide',
+        component: () => import('pages/StudyGuidePage.vue'),
+        meta: { title: 'Nasıl Çalışılır' },
+      },
+      {
         path: 'about',
         name: 'about',
         component: () => import('pages/AboutPage.vue'),

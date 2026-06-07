@@ -18,6 +18,7 @@ function pageUrl(path = '/') {
 const staticPaths = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },
   { path: '/about', changefreq: 'monthly', priority: '0.7' },
+  { path: '/nasil-calisilir', changefreq: 'monthly', priority: '0.8' },
   { path: '/faq', changefreq: 'monthly', priority: '0.7' },
   { path: '/contact', changefreq: 'monthly', priority: '0.6' },
   { path: '/privacy-policy', changefreq: 'monthly', priority: '0.5' },

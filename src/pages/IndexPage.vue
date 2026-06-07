@@ -10,7 +10,7 @@
         </p>
       </header>
 
-      <div class="column q-gutter-md q-mb-xl">
+      <div class="column q-gutter-md">
         <q-card
           v-for="subject in content.subjects"
           :key="subject.id"
@@ -49,21 +49,13 @@
         </q-card>
       </div>
 
-      <article class="index-page__article">
-        <h2 class="text-h6 text-weight-bold q-mb-md">{{ homeGuide.title }}</h2>
-        <p v-for="(para, i) in homeGuide.paragraphs" :key="i" class="text-body2 text-grey-4 q-mb-md">
-          {{ para }}
-        </p>
-        <p class="text-body2 q-mb-none">
-          <router-link :to="{ name: 'faq' }" class="index-page__link">Sık sorulan sorular</router-link>
-          ·
-          <router-link :to="{ name: 'about' }" class="index-page__link">Hakkında</router-link>
-        </p>
-      </article>
+      <p class="text-center q-mt-xl">
+        <router-link :to="{ name: 'study-guide' }" class="index-page__guide-link">
+          KPSS nasıl çalışılır?
+        </router-link>
+      </p>
 
-      <AdSenseBlock v-if="contentAdSlot" :ad-slot="contentAdSlot" />
-
-      <p v-if="lastTopicLabel" class="text-caption text-grey-5 q-mt-lg text-center">
+      <p v-if="lastTopicLabel" class="text-caption text-grey-5 q-mt-md text-center">
         Son çalışma: {{ lastTopicLabel }}
       </p>
     </div>
@@ -74,9 +66,6 @@
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useQuasar } from 'quasar'
-import AdSenseBlock from 'src/components/ads/AdSenseBlock.vue'
-import { kpssHomeGuide } from 'src/assets/data/subjectGuides'
-import { ADSENSE_SLOTS } from 'src/config/adsense'
 import { useContentStore } from 'src/stores/content'
 import { useProgressStore } from 'src/stores/progress'
 
@@ -84,8 +73,6 @@ const router = useRouter()
 const $q = useQuasar()
 const content = useContentStore()
 const progress = useProgressStore()
-const contentAdSlot = ADSENSE_SLOTS.content
-const homeGuide = kpssHomeGuide
 
 function progressFor(subjectId) {
   const topicList = content.topicsBySubject(subjectId)
@@ -119,17 +106,13 @@ function openSubject(subject) {
   margin: 0 auto;
 }
 
-.index-page__article {
-  padding-top: 8px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.index-page__link {
+.index-page__guide-link {
   color: rgba(255, 213, 79, 0.9);
   text-decoration: none;
+  font-size: 14px;
 }
 
-.index-page__link:hover {
+.index-page__guide-link:hover {
   text-decoration: underline;
 }
 
