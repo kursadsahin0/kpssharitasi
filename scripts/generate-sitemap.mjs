@@ -6,15 +6,9 @@ import { subjects } from '../src/assets/data/subjects.js'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const publicDir = join(__dirname, '..', 'public')
 
-const rawBase = process.env.VITE_SITE_URL?.trim() || ''
+const rawBase =
+  process.env.VITE_SITE_URL?.trim() || 'https://kpssharitasi.netlify.app'
 const base = rawBase.replace(/\/$/, '')
-
-if (!base) {
-  console.warn(
-    '[sitemap] VITE_SITE_URL tanımlı değil. Netlify’de örn. https://kpssharitasi.netlify.app ekleyin.',
-  )
-  process.exit(1)
-}
 
 function pageUrl(path = '/') {
   const normalized = path.startsWith('/') ? path : `/${path}`

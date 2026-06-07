@@ -1,7 +1,6 @@
-import { ADSENSE_CLIENT } from 'src/config/adsense'
+import { ADSENSE_CLIENT, ADSENSE_LIVE } from 'src/config/adsense'
 import { hasCookieConsent } from 'src/utils/cookieConsent'
 
-/** AdSense: yalnızca yeterli yayıncı metni olan sayfalarda reklam. */
 export const ADSENSE_ALLOWED_ROUTE_NAMES = new Set([
   'home',
   'about',
@@ -9,7 +8,6 @@ export const ADSENSE_ALLOWED_ROUTE_NAMES = new Set([
   'subject-guide',
 ])
 
-/** Quiz, sonuç, harita vb. — reklam yasak (AdSense politika ihlali). */
 export const ADSENSE_BLOCKED_ROUTE_NAMES = new Set([
   'quiz',
   'result',
@@ -17,6 +15,7 @@ export const ADSENSE_BLOCKED_ROUTE_NAMES = new Set([
 ])
 
 export function canShowAdsense(routeName) {
+  if (!ADSENSE_LIVE) return false
   if (!routeName || ADSENSE_BLOCKED_ROUTE_NAMES.has(routeName)) return false
   if (!ADSENSE_ALLOWED_ROUTE_NAMES.has(routeName)) return false
   return hasCookieConsent()
@@ -25,6 +24,7 @@ export function canShowAdsense(routeName) {
 let scriptLoading = null
 
 export function loadAdSenseScript() {
+  if (!ADSENSE_LIVE) return Promise.resolve(false)
   if (typeof document === 'undefined') return Promise.resolve(false)
 
   const existing = document.querySelector(
