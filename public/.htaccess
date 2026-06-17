@@ -1,0 +1,27 @@
+# KPSS Haritası — Metunic / cPanel (Apache)
+<IfModule mod_mime.c>
+  AddType text/plain .txt
+  AddType application/xml .xml
+</IfModule>
+
+<IfModule mod_headers.c>
+  <Files "ads.txt">
+    Header set Content-Type "text/plain; charset=utf-8"
+  </Files>
+  <Files "robots.txt">
+    Header set Content-Type "text/plain; charset=utf-8"
+  </Files>
+  <Files "sitemap.xml">
+    Header set Content-Type "application/xml; charset=utf-8"
+  </Files>
+</IfModule>
+
+# Vue Router history mode — dosya/klasör yoksa index.html
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>

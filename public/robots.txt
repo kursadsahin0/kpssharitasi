@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kpssharitasi.netlify.app/sitemap.xml
+Sitemap: kpssharitasi.com.tr/sitemap.xml

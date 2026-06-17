@@ -15,6 +15,7 @@
     "prebuild": "node scripts/generate-sitemap.mjs && node scripts/ensure-static-files.mjs",
     "build": "quasar build",
     "postbuild": "node scripts/ensure-static-files.mjs",
+    "deploy:metunic": "npm run build && node scripts/print-metunic-deploy.mjs",
     "build:wrong-options": "node scripts/build-wrong-options.mjs",
     "generate:wrong-options-llm": "node scripts/generate-wrong-options-llm.mjs",
     "generate:wrong-options-chatgpt": "node scripts/generate-wrong-options-chatgpt.mjs",

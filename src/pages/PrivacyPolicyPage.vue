@@ -22,7 +22,7 @@
         reklam gösterimi, ölçüm ve dolandırıcılık önleme için çerez kullanabilir.
       </li>
       <li>
-        <strong>Log verileri:</strong> Barındırma sağlayıcısı (ör. Netlify) teknik erişim logları
+        <strong>Log verileri:</strong> Barındırma sağlayıcınız teknik erişim logları
         tutabilir (IP, tarayıcı türü, zaman).
       </li>
     </ul>

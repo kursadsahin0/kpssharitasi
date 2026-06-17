@@ -2,13 +2,11 @@ import { writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { subjects } from '../src/assets/data/subjects.js'
+import { loadSiteUrl } from './load-site-url.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const publicDir = join(__dirname, '..', 'public')
-
-const rawBase =
-  process.env.VITE_SITE_URL?.trim() || 'https://kpssharitasi.netlify.app'
-const base = rawBase.replace(/\/$/, '')
+const base = loadSiteUrl()
 
 function pageUrl(path = '/') {
   const normalized = path.startsWith('/') ? path : `/${path}`

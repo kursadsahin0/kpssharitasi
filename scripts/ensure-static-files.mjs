@@ -14,11 +14,11 @@ mkdirSync(distDir, { recursive: true })
 writeFileSync(join(publicDir, 'ads.txt'), ADS_TXT, 'utf8')
 writeFileSync(join(distDir, 'ads.txt'), ADS_TXT, 'utf8')
 
-for (const name of ['robots.txt', 'sitemap.xml', '_redirects']) {
+for (const name of ['robots.txt', 'sitemap.xml', '.htaccess']) {
   const src = join(publicDir, name)
   if (existsSync(src)) {
     copyFileSync(src, join(distDir, name))
   }
 }
 
-console.log('[static] ads.txt, robots.txt, sitemap.xml, _redirects → dist/spa')
+console.log('[static] ads.txt, robots.txt, sitemap.xml, .htaccess → dist/spa')
