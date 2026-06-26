@@ -55,6 +55,24 @@
         </router-link>
       </p>
 
+      <section class="index-page__seo q-mt-xl">
+        <h2 class="text-subtitle1 text-weight-bold q-mb-sm">KPSS Genel Kültür dersleri</h2>
+        <p class="text-body2 text-grey-4 q-mb-md">
+          Tarih, Coğrafya ve Vatandaşlık derslerinde konu haritası ile sırayla ilerleyin. Her konuda
+          çoktan seçmeli sorular çözün, yıldız kazanın ve zayıf alanlarınızı tekrar edin.
+        </p>
+        <nav class="index-page__guide-nav" aria-label="Ders rehberleri">
+          <router-link
+            v-for="subject in availableSubjects"
+            :key="subject.id"
+            :to="{ name: 'subject-guide', params: { subjectId: subject.id } }"
+            class="index-page__guide-link index-page__guide-link--block"
+          >
+            {{ subject.title }} çalışma rehberi
+          </router-link>
+        </nav>
+      </section>
+
       <p v-if="lastTopicLabel" class="text-caption text-grey-5 q-mt-md text-center">
         Son çalışma: {{ lastTopicLabel }}
       </p>
@@ -73,6 +91,8 @@ const router = useRouter()
 const $q = useQuasar()
 const content = useContentStore()
 const progress = useProgressStore()
+
+const availableSubjects = computed(() => content.subjects.filter((s) => s.available))
 
 function progressFor(subjectId) {
   const topicList = content.topicsBySubject(subjectId)
@@ -114,6 +134,17 @@ function openSubject(subject) {
 
 .index-page__guide-link:hover {
   text-decoration: underline;
+}
+
+.index-page__guide-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.index-page__guide-link--block {
+  display: block;
+  text-align: left;
 }
 
 .subject-card {

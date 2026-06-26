@@ -1,18 +1,27 @@
 <!doctype html>
-<html>
+<html lang="tr">
   <head>
     <title><%= productName %></title>
 
     <meta charset="utf-8" />
     <meta name="description" content="<%= productDescription %>" />
     <meta name="author" content="KPSS Haritası" />
+    <meta name="theme-color" content="#1A1025" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
-    <meta
-      name="viewport"
-      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:site_name" content="<%= productName %>" />
+    <meta property="og:title" content="<%= productName %>" />
+    <meta property="og:description" content="<%= productDescription %>" />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<%= productName %>" />
+    <meta name="twitter:description" content="<%= productDescription %>" />
+    <meta name="twitter:image" content="/og-image.svg" />
 
     <link
       rel="icon"
@@ -82,7 +91,6 @@
           }
         }, 50);
 
-        // Failsafe: if app mount fails, do not keep user blocked forever.
         setTimeout(function(){
           clearInterval(check);
           removeSplash();

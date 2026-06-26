@@ -6,6 +6,14 @@
     </div>
 
     <article v-else class="guide-page__inner">
+      <nav class="guide-page__breadcrumb text-caption text-grey-5 q-mb-md" aria-label="Sayfa yolu">
+        <router-link :to="{ name: 'home' }" class="guide-page__crumb">Ana sayfa</router-link>
+        <span aria-hidden="true"> · </span>
+        <router-link :to="{ name: 'study-guide' }" class="guide-page__crumb">Rehber</router-link>
+        <span aria-hidden="true"> · </span>
+        <span>{{ guide.title }}</span>
+      </nav>
+
       <p class="text-overline text-grey-4 q-mb-xs">Çalışma rehberi</p>
       <h1 class="text-h5 text-weight-bold q-mb-md">{{ guide.title }}</h1>
       <p class="text-body1 q-mb-lg">{{ guide.intro }}</p>
@@ -56,5 +64,14 @@ const guide = computed(() => subjectGuides[subjectId.value] ?? null)
 
 .guide-page__inner h2 {
   color: var(--kpss-text);
+}
+
+.guide-page__crumb {
+  color: rgba(255, 213, 79, 0.85);
+  text-decoration: none;
+}
+
+.guide-page__crumb:hover {
+  text-decoration: underline;
 }
 </style>

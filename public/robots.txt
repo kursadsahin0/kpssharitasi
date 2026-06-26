@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: kpssharitasi.com.tr/sitemap.xml
+Sitemap: https://www.kpssharitasi.com.tr/sitemap.xml

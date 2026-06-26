@@ -1,6 +1,6 @@
 import { defineBoot } from '#q-app/wrappers'
 
-const NOINDEX_ROUTES = new Set(['quiz', 'result', 'subject-map'])
+const NOINDEX_ROUTES = new Set(['quiz', 'result', 'subject-map', 'not-found'])
 
 export default defineBoot(({ router }) => {
   let metaTag = document.querySelector('meta[name="robots"]')
