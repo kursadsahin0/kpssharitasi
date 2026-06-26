@@ -1,5 +1,5 @@
 # Cloudflare Pages — yalnızca build çıktısı yayınlanır (node_modules DEĞİL)
-name = "kpss-haritasi"
+name = "kpssharitasi"
 compatibility_date = "2024-11-01"
 
 [assets]
