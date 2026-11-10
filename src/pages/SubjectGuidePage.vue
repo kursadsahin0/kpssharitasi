@@ -23,14 +23,29 @@
         <p class="text-body2 text-grey-4">{{ section.body }}</p>
       </section>
 
+      <section v-if="subjectNotes.length" class="q-mb-lg">
+        <h2 class="text-subtitle1 text-weight-bold q-mb-sm">Konu anlatımları</h2>
+        <ul class="guide-page__topics text-body2">
+          <li v-for="n in subjectNotes" :key="n.slug">
+            <router-link :to="notePath(n)" class="guide-page__crumb">{{ n.title }}</router-link>
+          </li>
+        </ul>
+      </section>
+
       <section v-if="units.length" class="q-mb-lg">
         <h2 class="text-subtitle1 text-weight-bold q-mb-sm">Konu listesi</h2>
         <p class="text-body2 text-grey-4">
           KPSS Haritası’ndaki {{ subjectTitle }} konu haritası aşağıdaki ünite ve konulardan oluşur.
           Konular haritada bu sırayla açılır; her konunun sonunda çoktan seçmeli bir test bulunur.
+          Ünite başlıklarına tıklayarak ilgili konu anlatımını okuyabilirsiniz.
         </p>
         <div v-for="unit in units" :key="unit.title" class="q-mb-md">
-          <h3 class="text-body1 text-weight-bold q-my-sm">{{ unit.title }}</h3>
+          <h3 class="text-body1 text-weight-bold q-my-sm">
+            <router-link v-if="unit.note" :to="notePath(unit.note)" class="guide-page__crumb">{{
+              unit.title
+            }}</router-link>
+            <template v-else>{{ unit.title }}</template>
+          </h3>
           <ul class="guide-page__topics text-body2 text-grey-4">
             <li v-for="topic in unit.topics" :key="topic.id">{{ topic.title }}</li>
           </ul>
@@ -70,6 +85,7 @@ import AdSenseBlock from 'src/components/ads/AdSenseBlock.vue'
 import { subjectGuides } from 'src/assets/data/subjectGuides'
 import { subjects } from 'src/assets/data/subjects'
 import { topicDefs } from 'src/assets/data/topics'
+import { notePath, noteForUnit, notesBySubject } from 'src/assets/data/notes/index.js'
 import { ADSENSE_SLOTS } from 'src/config/adsense'
 
 const route = useRoute()
@@ -86,12 +102,19 @@ const units = computed(() => {
   const map = new Map()
   for (const t of topicDefs) {
     if (t.subjectId !== subjectId.value) continue
-    if (!map.has(t.unitTitle)) map.set(t.unitTitle, { title: t.unitTitle, topics: [] })
+    if (!map.has(t.unitTitle))
+      map.set(t.unitTitle, {
+        title: t.unitTitle,
+        topics: [],
+        note: noteForUnit(subjectId.value, t.unitTitle),
+      })
     map.get(t.unitTitle).topics.push(t)
   }
   for (const unit of map.values()) unit.topics.sort((a, b) => a.order - b.order)
   return [...map.values()]
 })
+
+const subjectNotes = computed(() => notesBySubject(subjectId.value))
 
 const otherGuides = computed(() =>
   subjects.filter((s) => s.available && s.id !== subjectId.value && subjectGuides[s.id]),

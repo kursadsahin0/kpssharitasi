@@ -34,6 +34,10 @@
         <nav class="kpss-footer__nav">
           <router-link :to="{ name: 'study-guide' }" class="kpss-footer__link">Rehber</router-link>
           <span class="kpss-footer__dot">•</span>
+          <router-link :to="{ name: 'notes-index' }" class="kpss-footer__link"
+            >Konu Anlatımları</router-link
+          >
+          <span class="kpss-footer__dot">•</span>
           <router-link :to="{ name: 'about' }" class="kpss-footer__link">Hakkında</router-link>
           <span class="kpss-footer__dot">•</span>
           <router-link :to="{ name: 'faq' }" class="kpss-footer__link">SSS</router-link>

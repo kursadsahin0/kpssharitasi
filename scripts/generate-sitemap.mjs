@@ -2,6 +2,7 @@ import { writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { subjects } from '../src/assets/data/subjects.js'
+import { notes, notePath } from '../src/assets/data/notes/index.js'
 import { loadSiteUrl } from './load-site-url.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -17,6 +18,7 @@ const staticPaths = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },
   { path: '/about', changefreq: 'monthly', priority: '0.7' },
   { path: '/nasil-calisilir', changefreq: 'monthly', priority: '0.8' },
+  { path: '/konu-anlatimi', changefreq: 'monthly', priority: '0.8' },
   { path: '/faq', changefreq: 'monthly', priority: '0.7' },
   { path: '/contact', changefreq: 'monthly', priority: '0.6' },
   { path: '/privacy-policy', changefreq: 'monthly', priority: '0.5' },
@@ -31,9 +33,11 @@ const guidePaths = subjects
     priority: '0.8',
   }))
 
+const notePaths = notes.map((n) => ({ path: notePath(n), changefreq: 'monthly', priority: '0.8' }))
+
 const lastmod = new Date().toISOString().slice(0, 10)
 
-const urls = [...staticPaths, ...guidePaths]
+const urls = [...staticPaths, ...guidePaths, ...notePaths]
   .map(
     ({ path, changefreq, priority }) => `  <url>
     <loc>${escapeXml(pageUrl(path))}</loc>
@@ -59,7 +63,7 @@ Sitemap: ${base}/sitemap.xml
 writeFileSync(join(publicDir, 'sitemap.xml'), sitemap, 'utf8')
 writeFileSync(join(publicDir, 'robots.txt'), robots, 'utf8')
 
-console.log(`[sitemap] ${staticPaths.length + guidePaths.length} URL → public/sitemap.xml (${base})`)
+console.log(`[sitemap] ${staticPaths.length + guidePaths.length + notePaths.length} URL → public/sitemap.xml (${base})`)
 
 function escapeXml(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')

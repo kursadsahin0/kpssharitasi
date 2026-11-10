@@ -1,6 +1,7 @@
 // Göreli importlar: bu dosya build sonrası scripts/prerender-static.mjs tarafından Node'da da okunur.
 import { faqItems } from '../assets/data/faq.js'
 import { kpssHomeGuide, subjectGuides } from '../assets/data/subjectGuides.js'
+import { findNote } from '../assets/data/notes/index.js'
 
 export const SITE_NAME = 'KPSS Haritası'
 export const DEFAULT_DESCRIPTION =
@@ -13,6 +14,11 @@ export const PAGE_SEO = {
     title: 'KPSS Genel Kültür Çalış',
     description:
       'Ücretsiz KPSS Genel Kültür hazırlık: Tarih, Coğrafya ve Vatandaşlık konu haritası, soru çözümü ve yıldız ile ilerleme takibi.',
+  },
+  'notes-index': {
+    title: 'KPSS Konu Anlatımları',
+    description:
+      'KPSS Genel Kültür Tarih, Coğrafya ve Vatandaşlık ünitelerinin özet konu anlatımları ve sınav öncesi tekrar notları.',
   },
   'study-guide': {
     title: 'KPSS Nasıl Çalışılır',
@@ -73,6 +79,12 @@ export function pageUrl(path = '/') {
 }
 
 export function resolvePageSeo(route) {
+  if (route.name === 'unit-note') {
+    const note = findNote(route.params.subjectId, route.params.slug)
+    if (note) return { title: note.title, description: note.description }
+    return { title: 'Konu Anlatımı', description: DEFAULT_DESCRIPTION }
+  }
+
   if (route.name === 'subject-guide') {
     const guide = subjectGuides[route.params.subjectId]
     if (guide) {
@@ -181,6 +193,21 @@ export function buildJsonLd(route) {
           ],
         },
       ],
+    }
+  }
+
+  if (route.name === 'unit-note') {
+    const note = findNote(route.params.subjectId, route.params.slug)
+    if (!note) return null
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: note.title,
+      description: note.description,
+      url,
+      inLanguage: 'tr-TR',
+      author: { '@type': 'Organization', name: SITE_NAME },
+      publisher: { '@type': 'Organization', name: SITE_NAME },
     }
   }
 
