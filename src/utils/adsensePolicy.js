@@ -6,6 +6,8 @@ export const ADSENSE_ALLOWED_ROUTE_NAMES = new Set([
   'about',
   'faq',
   'subject-guide',
+  'notes-index',
+  'unit-note',
 ])
 
 export const ADSENSE_BLOCKED_ROUTE_NAMES = new Set([

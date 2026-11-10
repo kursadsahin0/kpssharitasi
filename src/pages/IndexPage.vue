@@ -53,6 +53,10 @@
         <router-link :to="{ name: 'study-guide' }" class="index-page__guide-link">
           KPSS nasıl çalışılır?
         </router-link>
+        ·
+        <router-link :to="{ name: 'notes-index' }" class="index-page__guide-link">
+          Konu anlatımları
+        </router-link>
       </p>
 
       <section class="index-page__seo q-mt-xl">

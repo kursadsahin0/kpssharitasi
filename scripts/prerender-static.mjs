@@ -16,6 +16,7 @@ import { fileURLToPath } from 'node:url'
 import { faqItems } from '../src/assets/data/faq.js'
 import { kpssHomeGuide, subjectGuides } from '../src/assets/data/subjectGuides.js'
 import { subjects } from '../src/assets/data/subjects.js'
+import { notes, notePath, notesBySubject } from '../src/assets/data/notes/index.js'
 import { PAGE_SEO, SITE_NAME, buildDocumentTitle } from '../src/config/seo.js'
 import { loadSiteUrl } from './load-site-url.mjs'
 
@@ -59,7 +60,7 @@ const availableSubjects = subjects.filter((s) => s.available && subjectGuides[s.
 const navHtml = `<nav aria-label="Site gezinmesi"><p>
 <a href="/">Ana sayfa</a> · <a href="/nasil-calisilir">Nasıl çalışılır</a> ·
 ${availableSubjects.map((s) => `<a href="/rehber/${s.id}">${esc(s.title)} rehberi</a>`).join(' · ')} ·
-<a href="/faq">SSS</a> · <a href="/about">Hakkında</a> · <a href="/contact">İletişim</a> ·
+<a href="/konu-anlatimi">Konu anlatımları</a> · <a href="/faq">SSS</a> · <a href="/about">Hakkında</a> · <a href="/contact">İletişim</a> ·
 <a href="/privacy-policy">Gizlilik Politikası</a> · <a href="/terms">Kullanım Koşulları</a>
 </p></nav>`
 
@@ -87,6 +88,7 @@ function guideBody(subjectId) {
 <h1>${esc(guide.title)}</h1>
 <p>${esc(guide.intro)}</p>
 ${sectionsHtml(guide.sections)}
+${notesBySubject(subjectId).length ? `<h2>Konu anlatımları</h2>\n<ul>${notesBySubject(subjectId).map((n) => `<li><a href="${notePath(n)}">${esc(n.title)}</a></li>`).join('')}</ul>` : ''}
 ${units.size ? `<h2>Konu listesi</h2>\n<p>KPSS Haritası’ndaki ${esc(subject?.title ?? '')} konu haritası aşağıdaki ünite ve konulardan oluşur.</p>\n${unitHtml}` : ''}
 <p><a href="/ders/${subjectId}">Konu haritasına git</a></p>`
 }
@@ -103,7 +105,7 @@ function homeBody() {
     )
     .join('')}</ul>
 ${kpssHomeGuide.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('\n')}
-<p><a href="/nasil-calisilir">KPSS nasıl çalışılır?</a></p>`
+<p><a href="/nasil-calisilir">KPSS nasıl çalışılır?</a> · <a href="/konu-anlatimi">Konu anlatımları</a></p>`
 }
 
 function studyGuideBody() {
@@ -117,12 +119,41 @@ function faqBody() {
 ${faqItems.map((f) => `<h2>${esc(f.q)}</h2>\n<p>${esc(f.a)}</p>`).join('\n')}`
 }
 
+function noteBody(note) {
+  const subject = subjects.find((s) => s.id === note.subjectId)
+  return `<p>KPSS ${esc(subject?.title ?? '')} · Konu anlatımı</p>
+<h1>${esc(note.title)}</h1>
+<p>${esc(note.intro)}</p>
+${note.sections.map((s) => `<h2>${esc(s.heading)}</h2>\n${s.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('\n')}`).join('\n')}
+<h2>Sınav öncesi hatırla</h2>
+<ul>${note.keyPoints.map((k) => `<li>${esc(k)}</li>`).join('')}</ul>
+<p><a href="/ders/${note.subjectId}">Konu haritasında soru çöz</a> · <a href="/rehber/${note.subjectId}">Çalışma rehberi</a></p>`
+}
+
+function notesIndexBody() {
+  return `<h1>KPSS Konu Anlatımları</h1>
+<p>${esc(PAGE_SEO['notes-index'].description)}</p>
+${availableSubjects
+  .map((s) => {
+    const list = notesBySubject(s.id)
+    if (!list.length) return ''
+    return `<h2>${esc(s.title)}</h2>\n<ul>${list.map((n) => `<li><a href="${notePath(n)}">${esc(n.title)}</a> — ${esc(n.description)}</li>`).join('')}</ul>`
+  })
+  .join('\n')}`
+}
+
 const simpleBody = (name) => `<h1>${esc(PAGE_SEO[name].title)}</h1>\n<p>${esc(PAGE_SEO[name].description)}</p>`
 
 const pages = [
   { path: '/', name: 'home', body: homeBody() },
   { path: '/nasil-calisilir', name: 'study-guide', body: studyGuideBody() },
   { path: '/faq', name: 'faq', body: faqBody() },
+  { path: '/konu-anlatimi', name: 'notes-index', body: notesIndexBody() },
+  ...notes.map((n) => ({
+    path: notePath(n),
+    seo: { title: n.title, description: n.description },
+    body: noteBody(n),
+  })),
   { path: '/about', name: 'about', body: simpleBody('about') },
   { path: '/contact', name: 'contact', body: simpleBody('contact') },
   { path: '/privacy-policy', name: 'privacy-policy', body: simpleBody('privacy-policy') },

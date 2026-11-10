@@ -33,6 +33,18 @@ const routes = [
         meta: { title: 'Sonuç' },
       },
       {
+        path: 'konu-anlatimi',
+        name: 'notes-index',
+        component: () => import('pages/NotesIndexPage.vue'),
+        meta: { title: 'Konu Anlatımları' },
+      },
+      {
+        path: 'konu-anlatimi/:subjectId/:slug',
+        name: 'unit-note',
+        component: () => import('pages/UnitNotePage.vue'),
+        meta: { title: 'Konu Anlatımı' },
+      },
+      {
         path: 'nasil-calisilir',
         name: 'study-guide',
         component: () => import('pages/StudyGuidePage.vue'),
