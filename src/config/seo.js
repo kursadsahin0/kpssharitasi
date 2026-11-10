@@ -1,5 +1,6 @@
-import { faqItems } from 'src/assets/data/faq'
-import { kpssHomeGuide, subjectGuides } from 'src/assets/data/subjectGuides'
+// Göreli importlar: bu dosya build sonrası scripts/prerender-static.mjs tarafından Node'da da okunur.
+import { faqItems } from '../assets/data/faq.js'
+import { kpssHomeGuide, subjectGuides } from '../assets/data/subjectGuides.js'
 
 export const SITE_NAME = 'KPSS Haritası'
 export const DEFAULT_DESCRIPTION =
@@ -7,7 +8,7 @@ export const DEFAULT_DESCRIPTION =
 export const SITE_LOCALE = 'tr_TR'
 export const OG_IMAGE_PATH = '/og-image.svg'
 
-const PAGE_SEO = {
+export const PAGE_SEO = {
   home: {
     title: 'KPSS Genel Kültür Çalış',
     description:
