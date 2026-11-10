@@ -4,6 +4,18 @@
       {{ para }}
     </p>
 
+    <section v-for="section in homeGuide.sections" :key="section.heading" class="q-mb-md">
+      <h2>{{ section.heading }}</h2>
+      <p>{{ section.body }}</p>
+    </section>
+
+    <h2>Ders rehberleri</h2>
+    <ul class="q-mb-lg">
+      <li><router-link :to="{ name: 'subject-guide', params: { subjectId: 'tarih' } }">KPSS Tarih çalışma rehberi</router-link></li>
+      <li><router-link :to="{ name: 'subject-guide', params: { subjectId: 'cografya' } }">KPSS Coğrafya çalışma rehberi</router-link></li>
+      <li><router-link :to="{ name: 'subject-guide', params: { subjectId: 'vatandaslik' } }">KPSS Vatandaşlık çalışma rehberi</router-link></li>
+    </ul>
+
     <p class="q-mb-lg">
       <router-link :to="{ name: 'faq' }">Sık sorulan sorular</router-link>
       ·

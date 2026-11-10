@@ -29,13 +29,25 @@
 
     <h2>3. Google AdSense</h2>
     <p>
-      Sitemizde Google AdSense reklamları yalnızca yeterli metin içeriği bulunan sayfalarda
-      (ana sayfa, rehber, SSS, hakkında vb.) gösterilir. Quiz, sonuç ve konu haritası gibi
+      Sitemiz, reklam hizmeti olarak Google AdSense kullanır. Reklamlar yalnızca yeterli metin
+      içeriği bulunan sayfalarda (rehber, SSS, hakkında vb.) gösterilir. Quiz, sonuç ve konu haritası gibi
       etkileşimli veya yönlendirme amaçlı ekranlarda reklam gösterilmez.
     </p>
     <p>
-      Google, reklamları kişiselleştirmek ve performansı ölçmek için çerez ve benzeri
-      performansı ölçmek için çerez ve benzeri tanımlayıcılar kullanabilir. Ayrıntılar için:
+      Google dahil üçüncü taraf satıcılar, kullanıcının bu web sitesine veya diğer web sitelerine
+      yaptığı önceki ziyaretlere dayalı reklamlar sunmak için çerez kullanır. Google’ın reklam
+      çerezlerini kullanması, Google ve iş ortaklarının kullanıcılara bu siteye ve/veya internetteki
+      diğer sitelere yaptıkları ziyaretlere dayalı reklam sunmasını sağlar. Kullanıcılar,
+      kişiselleştirilmiş reklamcılığı
+      <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer"
+        >Reklam Ayarları</a
+      >
+      sayfasından devre dışı bırakabilir; ayrıca üçüncü taraf satıcıların kişiselleştirilmiş
+      reklamcılık amacıyla kullandığı çerezleri
+      <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer"
+        >www.aboutads.info</a
+      >
+      adresinden devre dışı bırakabilirler. Ayrıntılar için:
       <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer"
         >Google Reklam Teknolojileri</a
       >

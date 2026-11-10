@@ -11,7 +11,7 @@
 <script setup>
 defineProps({
   title: { type: String, required: true },
-  updated: { type: String, default: '28 Mayıs 2026' },
+  updated: { type: String, default: '10 Kasım 2026' },
 })
 </script>
 
