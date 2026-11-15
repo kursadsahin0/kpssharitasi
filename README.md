@@ -1,43 +1,31 @@
-# Quasar App (quasar-project)
+# KPSS Haritası
 
-A Quasar Project
+KPSS Genel Kültür'e hazırlanan adaylar için ücretsiz çalışma uygulaması. Tarih, Coğrafya ve Vatandaşlık derslerini küçük, sıralı konulara bölen bir konu haritası sunar; her konu kısa bir soru setiyle biter.
 
-## Install the dependencies
+**Canlı:** https://kpssharitasi.vercel.app
+
+## Özellikler
+
+- **Konu haritası:** Ders ve konu bazlı, adım adım ilerleme
+- **Soru çözümü:** Çoktan seçmeli sorular ve anında geri bildirim
+- **İlerleme takibi:** Yıldız ve tamamlanma durumu, cihazda yerel olarak saklanır (Pinia)
+- **Konu anlatımları:** Ünite bazlı özet notlar ve çalışma rehberi
+- **SEO:** Sayfa bazlı meta etiketleri, sitemap üretimi ve statik ön render
+- Üyelik gerektirmez, mobil uyumludur
+
+## Teknolojiler
+
+- Vue 3
+- Quasar Framework
+- Pinia
+- Vue Router
+- Vite
+- ESLint, Prettier
+
+## Kurulum
 
 ```bash
-yarn
-# or
 npm install
+npm run dev      # geliştirme sunucusu
+npm run build    # production build
 ```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-
-```bash
-quasar dev
-```
-
-### Lint the files
-
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-### Format the files
-
-```bash
-yarn format
-# or
-npm run format
-```
-
-### Build the app for production
-
-```bash
-quasar build
-```
-
-### Customize the configuration
-
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
