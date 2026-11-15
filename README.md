@@ -2,7 +2,7 @@
 
 KPSS Genel Kültür'e hazırlanan adaylar için ücretsiz çalışma uygulaması. Tarih, Coğrafya ve Vatandaşlık derslerini küçük, sıralı konulara bölen bir konu haritası sunar; her konu kısa bir soru setiyle biter.
 
-**Canlı:** https://kpssharitasi.vercel.app
+**Canlı:** https://kpssharitasi.com.tr
 
 ## Özellikler
 
